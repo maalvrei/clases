@@ -1,8 +1,7 @@
 import os
+from pathlib import Path
 
-x = os.getcwd()
-
-RUTA_BASE ='/home/teo/Proyectos/CoreNetworks/FP/curso 22-23/Programacion/ejercicios y apuntes python/ToDo'
+RUTA_BASE = os.getcwd()
 archivo = 'todo.csv'
 ESTADOS = ['Pendiente', 'Hecho']
 
@@ -147,4 +146,6 @@ def main():
         if opcion == 6:
             exit()
 
+
+print('hola')
 main()
