@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+import PySimpleGUI as ps
 
 RUTA_BASE = os.getcwd()
 archivo = 'todo.csv'
@@ -146,6 +147,20 @@ def main():
         if opcion == 6:
             exit()
 
+def main_window():
 
-print('hola')
-main()
+    layout = [
+        [ps.Text('1') , ps.InputText() , ps.Button('ok'), ps.Button('Cancel')],
+        [ps.Multiline(size = (80 , 25))]
+    ]
+    
+
+
+    window = ps.Window('TO DO' , layout)
+
+    while True:
+        event, values = window.read()
+        if event == ps.WIN_CLOSED:
+            break
+
+main_window()

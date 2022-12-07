@@ -26,8 +26,6 @@ operaciones = []
 
 while True:
     event, values = window.read()
-
-
     if event == ps.WIN_CLOSED:
         break
 

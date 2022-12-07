@@ -10,14 +10,11 @@ layout = [
     [ps.Text('Introduce tu nombre')],
     [ps.InputText()],
     [ps.Button('ok'), ps.Button('Cancel')],
-    [ps.Radio('koko')],
-    [ps.Checkbox('jijiji')],
-    [ps.Listbox()]
 ]
 
 #3. Event loop
 
-windows = ps.Window('Formulario' , layout)
+window = ps.Window('Formulario' , layout)
 
 while True:
     event , values = window.read()
