@@ -4,6 +4,7 @@ main {
     font-family: 'Arial';
 }
 
+
 .normal {
     border-color: green;
     border-width: 2px;
@@ -36,6 +37,8 @@ section {
     color: rgb(126, 126, 235);
     margin: 5px;
     width: 40%;
+    text-indent: 1.2em;
+    padding: 0 4px
 }
 
 #lorem {
