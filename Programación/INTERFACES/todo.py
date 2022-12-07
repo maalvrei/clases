@@ -1,5 +1,7 @@
 import os
 
+x = os.getcwd()
+
 RUTA_BASE ='/home/teo/Proyectos/CoreNetworks/FP/curso 22-23/Programacion/ejercicios y apuntes python/ToDo'
 archivo = 'todo.csv'
 ESTADOS = ['Pendiente', 'Hecho']
