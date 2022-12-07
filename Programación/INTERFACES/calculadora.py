@@ -22,6 +22,7 @@ tema_defecto = 'HotDogStand'
 window = crear_ventana(tema_defecto)
 
 numeros = []
+operaciones = []
 
 while True:
     event, values = window.read()
@@ -34,5 +35,15 @@ while True:
         numeros.append(event)
         num_string = ''.join(numeros)
         window['-TEXTO-'].update(num_string)
+    if event in ['+' , '-' , '*' , '/']:
+        operaciones.append(''.join(numeros))
+        operaciones.append(event)
+        numeros = []
+        window['-TEXTO-'].update('')
+    if event == 'Enter':
+        operaciones.append(''.join(numeros))
+        resultado = eval(''.join(operaciones))
+        window['-TEXTO-'].update(f'{resultado}')
+        operaciones = []
 
 window.close()
