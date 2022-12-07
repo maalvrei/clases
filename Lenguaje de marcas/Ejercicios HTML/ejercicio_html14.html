@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprobaciones pattern</title>
+</head>
+
+<body>
+    <header>
+        <h1>¡Vamos a hacer algunas comprobaciones con <code>pattern</code>!</h1>
+    </header>
+    <main>
+        <p>Cuando hayas rellenado todos los apartados, puedes pulsar enviar y ver si los ejemplos que propongo funcionan o te dan algún fallo.</p>
+        <p>Si funcionan, ¡significa que hemos interpretado bien los pattern!</p>
+        <form action="pagina.html" method="post">
+        <ol>
+
+            <li><code>[0-9]{2}\.[0-9]{3}\.[0-9]{3}-[a-zA-Z]</code></li>
+            <p></p>
+            <label for="a1">Introduce algo: </label>
+            <input type="text" id="a1" name="a1" pattern="[0-9]{2}\.[0-9]{3}\.[0-9]{3}-[a-zA-Z]" autocomplete="off"
+                required>
+            <p>Se nos pide que introduzcamos algo como lo siguiente: </p>
+            <p>12.345.678-a</p>
+            <p><a href="https://www.regex101.com" target="_blank">¡Comprúebalo tú mismo en este enlace!</a></p>
+            <li><code>[a-zA-Z]+[ ][a-zA-Z]+([ ][a-zA-Z]+){0,2}</code></li>
+            <p></p>
+            <label for="a2">Introduce otro algo: </label>
+            <input type="text" name="a2" id="a2" autocomplete="off" pattern="[a-zA-Z]+[ ][a-zA-Z]+([ ][a-zA-Z]+){0,2}"
+                required>
+            <p>En este caso, podríamos introducir una cadena como la siguiente: </p>
+            <p>aA bB cC dD</p>
+            <p><a href="https://www.regex101.com" target="_blank">¡Comprúebalo tú mismo en este enlace!</a></p>
+            <li><code>[a-zA-Z0-9_-]{2,63}@[a-zA-Z0-9]{2,63}[\.][a-z]{2,4}</code></li>
+            <p></p>
+            <label for="correo">Introduce un correo electrónico: </label>
+            <input type="email" name="correo" id="correo" required
+                pattern="[a-zA-Z0-9_-]{2,63}@[a-zA-Z0-9]{2,63}[\.][a-z]{2,4}" autocomplete="off">
+            <p>Con ese pattern en un input de tipo email, se pedirá al usuario un correo con las siguientes
+                carácteristicas: </p>
+            <p>migue_miguelito@miguelito.com</p>
+            <p>Anterior a la @ pueden ir letras mayúsculas, minúsculas, todos los números y los guiones - y _ siempre
+                que ese conjunto no supere los 63 caracteres.</p>
+            <p>Posterior a la @ pueden ir los mismos conjuntos de caracteres que antes, menos el - y el _, sólo que debemos introducir un
+                punto obligatoriamente (como indica el pattern en [\.])</p>
+            <p>Después del punto, sólo podemos introducir letras minúsculas, mínimo 2 y máximo 4</p>
+            <p><a href="https://www.regex101.com" target="_blank">¡Comprúebalo tú mismo en este enlace!</a></p>
+            <li><code>(http(s)?:\/\/)+([w]{3}[\.])+[a-z0-9]+[\.][a-z]{2,3}</code></li>
+            <p></p>
+            <label for="enlace">Introduce tu enlace: </label>
+            <input type="url" name="enlace" id="enlace" required
+                pattern="(http(s)?:\/\/)+([w]{3}[\.])+[a-z0-9]+[\.][a-z]{2,3}" autocomplete="off">
+            <p>Con este pattern se controla al usuario para que introduzca correctamente la manera común de proporcionar
+                un enlace a otra persona o a la hora de introducirlo en un navegador.</p>
+            <p>Un ejemplo de enlace válido controlado por este pattern sería el siguiente: </p>
+            <p>https://www.lawebdemiguelito.com</p>
+            <p><a href="https://www.regex101.com" target="_blank">¡Comprúebalo tú mismo en este enlace!</a></p>
+            <li><code>.{8,10}</code></li>
+            <p></p>
+            <label for="contraseña">Introduce tu contraseña:</label>
+            <input type="password" name="contraseña" id="contraseña" required pattern=".{8,10}">
+            <p>Este pattern es muy sencillo. Aplicado a un input de tipo password, como es el caso, nos dará por válida
+                cualquier contraseña que tenga cualquier caracter (eso es lo que significa el punto)</p>
+            <p>Eso sí, siempre que introduzcamos entre 8 y 10 caracteres. </p>
+            <p>Ejemplo sencillo de contraseña válida para este pattern: miguel11</p>
+            <p><a href="https://www.regex101.com" target="_blank">¡Comprúebalo tú mismo en este enlace!</a></p>
+            <input type="submit" value="ENVIAR">
+        </ol>
+
+        
+        </form>
+    </main>
+</body>
+
+</html>

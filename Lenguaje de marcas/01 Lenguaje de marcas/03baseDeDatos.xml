@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<contact-info> 
+	<contact> 
+		<name>Tanmay Patil</name> 
+		<company>TutorialsPoint</company> 
+		<phone>(011) 123-4567</phone> 
+	</contact> 
+	<contact>
+		<name>Manisha Patil</name>
+        <company>TutorialsPoint</company> 
+		<phone>(011) 789-4567</phone> 
+	</contact> 
+</contact-info> 

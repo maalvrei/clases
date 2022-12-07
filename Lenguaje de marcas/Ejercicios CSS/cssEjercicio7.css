@@ -1,0 +1,44 @@
+main {
+    display:flex;
+    justify-content: space-around;
+    font-family: 'Arial';
+}
+
+.normal {
+    border-color: green;
+    border-width: 2px;
+    border-style: solid;
+    color: black;
+}
+
+#donec {
+    font-weight: bold;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+em {
+    font-style: normal;
+}
+
+.especial {
+    background-color:rgb(255, 251, 190);
+    border-style: solid;
+    border-color: rgb(255, 196, 0);
+}
+
+section {
+    border-style: solid;
+    border-color: red;
+    color: rgb(126, 126, 235);
+    margin: 5px;
+    width: 40%;
+}
+
+#lorem {
+    background-color: blanchedalmond;
+    
+}

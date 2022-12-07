@@ -1,0 +1,40 @@
+:lang(en) {
+	font-style:italic;
+	color:green;
+}
+p { text-decoration: underline;}
+div p:first-child { /* el primer dentro de un div */
+	font-size:20px;
+	font-style:italic; /* cursiva */ 
+}
+a:link {
+	text-decoration-color:orange; /* para dar formato a los enlaces no visitados */
+}
+a:visited {
+	text-decoration-color:black; /* para dar formato a los enlaces no visitados */
+	color:black;
+}
+a:hover{
+text-decoration:none;
+}
+a:active{
+font-weight:bolder;
+border:2px red solid;	
+}
+
+:focus { /* para cualquier elemento con el foco */
+	background-color: pink;
+	width:400px;
+}
+p:focus {
+	margin-left:100px;
+}
+
+/* o de forma particular*/
+input:focus {
+background-color: rgb(35, 100, 43);
+} /**/
+
+p:hover{
+	text-decoration: none;
+}

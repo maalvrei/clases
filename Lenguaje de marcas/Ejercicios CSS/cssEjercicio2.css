@@ -1,0 +1,25 @@
+html {
+    text-align: center;
+    background-color: rgb(246, 248, 117);
+}
+
+header {
+    font-size: large;
+    font-weight: bold;
+}
+
+#lista1 li {
+    text-align: center;
+    display: inline;
+    padding: 10px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+#lista2 {
+    text-align: left;
+    list-style: none;
+}
+

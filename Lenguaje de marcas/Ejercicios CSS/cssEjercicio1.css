@@ -1,0 +1,33 @@
+main {
+    text-align:justify;
+    text-indent: 1.5%;
+    background: linear-gradient(to bottom, grey, white); 
+    padding:0 10px 0 10px;
+}
+
+p::first-letter {
+    font-size: 150%;
+}
+
+#boom {
+    color: orange;
+}
+
+#formato1 {
+    font-size: 200%;
+}
+
+.claves {
+background-color: yellow;
+text-transform: uppercase;
+}
+
+#jorge {
+    color: orange;
+}
+
+#dioni {
+    color: orange;
+    border-bottom: 1px goldenrod solid;
+    border-top: 1px goldenrod solid;
+}

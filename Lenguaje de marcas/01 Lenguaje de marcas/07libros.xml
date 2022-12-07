@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros>
+<libros>
+    <libro publicadoEn="1840">
+        <titulo>El Capote</titulo>
+        <autor>Nikolai Gogol</autor>
+    </libro>
+    <libro publicadoEn="2008">
+        <titulo>El Sanador de Caballos</titulo>
+        <autor>Gonzalo Giner</autor>
+    </libro>
+    <libro publicadoEn="1981">
+        <titulo>El Nombre de la Rosa</titulo>
+        <autor>Umberto Eco</autor>
+    </libro>
+</libros>

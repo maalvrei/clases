@@ -1,0 +1,54 @@
+html {
+    font-family: system-ui;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #494949;
+}
+
+p {
+    color: #666;
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
+
+h1 {
+    font-weight: bold;
+    color: #ff00ea;
+    font-size: 22px;
+}
+
+.producto {
+    background-color: pink;
+}
+
+.descrip {
+
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+h1 span .special {
+    color: green;
+    text-decoration: underline pink; 
+    background-color: black;
+    font-size: 20px;
+
+}
+
+#destacado {
+    margin: 0 auto;
+    
+}
+
+#identificador {
+    color: white;
+}
+
+#anuncio {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #DD1E64;
+}
+

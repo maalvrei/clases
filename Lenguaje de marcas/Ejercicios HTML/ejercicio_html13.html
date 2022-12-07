@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 13 de HTML</title>
+</head>
+<body>
+    <header><h1>Formularios</h1></header>
+    <nav>
+        <ol>
+            <li><a href="#usuario">Nombre de usuario</a></li>
+            <li><a href="#bin">Números binarios</a></li>
+            <li><a href="#cadena">Cadena de caracteres</a></li>
+        </ol>
+    </nav>
+    <main>
+        <form action="pagina.html" method="post">
+            <div>
+                <label for="usuario">Nombre de usuario: </label>
+                <input type="text" id="usuario" name="usuario" autocomplete="off" pattern="[a-z]{1,15}" title="máximo 15 dígitos" required placeholder="Escribe aquí tu nombre de usuario">
+            </div>
+            <div>
+                <label for="bin">Número binario de 8 dígitos: </label>
+                <input type="text" name="bin" id="bin" pattern="(0|1){8}" required title="debe ser un número binario de 8 dígitos" placeholder="Escribe aquí un binario">
+            </div>
+            <div>
+                <label for="cadena">Cadena de caracteres: </label>
+                <input type="text" name="cadena" id="cadena" pattern="[a-zA-Z]{3}[0-9]{3}" required title="deben ser tres letras y tres números">
+            </div>
+            <div>
+                <input type="submit" value="ENVIAR">
+            </div>
+        </form>
+    </main>
+</body>
+</html>

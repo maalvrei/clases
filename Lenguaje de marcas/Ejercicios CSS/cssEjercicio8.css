@@ -1,0 +1,50 @@
+main {
+    background-color: rgb(65, 245, 170);
+    margin-top: 0px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr {
+    border-style: solid;
+    border-color: rgb(36, 187, 116);
+    border-width: 5px;
+    color: rgb(36, 187, 116);
+    position: relative; bottom: 20px; top: -10px;
+    width: 97%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#dream {
+    text-decoration: underline;
+}
+
+#dia {
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#bandera {
+    width:50px;
+	height:50%;
+	margin-right:20px;
+    float: left;
+}
+
+#martin {
+    width:50px;
+	height:50%;
+    margin-top: 100px;
+	margin-right:.5em;
+    float: right;
+}

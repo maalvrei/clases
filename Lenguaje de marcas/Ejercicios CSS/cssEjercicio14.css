@@ -1,0 +1,9 @@
+figure {
+    text-align: left;
+}
+
+figure:hover figcaption{
+    position: relative;
+    top: -30px;
+    color: white;
+}

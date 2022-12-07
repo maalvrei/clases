@@ -1,0 +1,53 @@
+.par {
+    color:yellow
+}
+
+.impar {
+    color:purple
+}
+
+td {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+}
+
+table {
+    text-align: center;
+}
+
+#tabla {
+    margin-top: 35px;
+    background-color: rgb(235, 22, 22);
+}
+
+#columnas {
+    column-count:2;
+    column-gap:20px;
+    column-rule:4px dotted gray;
+    width: 50%;
+    margin-top: 35px;
+    text-align: center;
+}
+
+#columnas li {
+    list-style: none;
+}
+
+.imagengrande {
+    width: 800px;
+    height: 500px;
+}
+
+.imagenmediana {
+    width: 600px;
+    height: 300px;
+}
+
+.imagenpequeña {
+    width: 400px;
+    height: 200px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox y radio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Diferencias entre <code>type = "checkbox"</code> y <code>type = "radio"</code></h1>
+    </header>
+    <main>
+        <form action="pagina.html" method="post">
+            <article>
+                <section>
+                    <div>
+                        <code><h2>type = "checkbox" </h2></code>
+                    </div>
+                    <p>Se usa en cada <code>INPUT</code> un <code>name</code> distinto porque hay que enviar todas las
+                        variables marcadas.</p>
+                    <p>¿Cuáles de estos formatos usas más?</p>
+                    <label for="jpg">JPG</label>
+                    <input type="checkbox" name="jpg" id="jpg">
+                    <label for="png">PNG</label>
+                    <input type="checkbox" name="png" id="png">
+                    <label for="gif">GIF</label>
+                    <input type="checkbox" name="gif" id="gif">
+                </section>
+                <section>
+
+                    <h2><code>type = "radio" </code></h2>
+
+                    <p>Se usa en cada <code>INPUT</code> el mismo <code>name</code> porque sólo hay que enviar una, la
+                        que se marque.</p>
+                    <p>¿Cuál es tu formato favorito?</p>
+                    <label for="jpg1">JPG</label>
+                    <input type="radio" name="formato" id="jpg1" value="jpg">
+                    <label for="png2">PNG</label>
+                    <input type="radio" name="formato" id="png2" value="png">
+                    <label for="gif1">GIF</label>
+                    <input type="radio" name="formato" id="gif1" value="gif">
+                </section>
+            </article>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="RESTABLECER">
+        </form>
+    </main>
+</body>
+
+</html>
