@@ -1,0 +1,31 @@
+th {
+    font-weight: bold;
+}
+
+.impar {
+    font-weight: bold;
+}
+
+table, th, tr, td {
+    border: 1px black solid;
+}
+
+table {
+    border-collapse: collapse;
+    width: 10%;
+	height: 300px;
+}
+
+th {
+    padding: 5px;
+}
+
+tr td {
+    text-align: right;
+    padding-right: 5px;
+}
+
+main {
+    background-color: blanchedalmond;
+    width: 30%;
+}
