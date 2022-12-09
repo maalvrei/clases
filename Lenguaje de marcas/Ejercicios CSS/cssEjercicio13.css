@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+
+header {
+    background-color: rgb(245, 88, 114);
+}
+
+main {
+    background-color: rgb(245, 88, 114);
+    padding: 25px;
+}
+
+img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
