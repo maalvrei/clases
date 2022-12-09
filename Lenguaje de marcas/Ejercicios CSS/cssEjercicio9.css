@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(240, 86, 111);
+    font-weight: bold;
+
+}
+
+select {
+    display:inline-block;
+    height:50px;
+    width:70%;
+}
+
+#name {
+    width: 60%;
+}
+
+#dni {
+    width: 10%;
+}
+
+main {
+    background-image: url("imagenes/3.jpg");
+}
+
+#tlf {
+    width: 10%;
+}
+
+#direccion {
+    width: 60%;
+}
+
+
+div {
+    margin: 3px;
+
+}
+
+#primera_caja {
+    margin-top: 8px;
+}
+
+input {
+    box-shadow: -2px -1px;
+}
+
+#reset , #submit {
+    box-shadow: 1px 1px;
+    margin: 2px;
+}
+
+#botones_finales {
+    display: flex;
+    justify-content: center;
+}
