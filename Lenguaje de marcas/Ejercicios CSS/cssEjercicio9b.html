@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio CSS 9b</title>
+        <link rel="stylesheet" href="cssEjercicio9b.css">
+    </head>
+    <body>
+        <main>
+            <p>Escríbemos y en breve nos pondremos en contacto contigo</p>
+            
+            <form action="#" method="post">
+                <div id="nombre">
+                    <label for="nombre" class="obligatoria">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" required
+                        placeholder="Escribe tu nombre">
+                </div>
+                <div>
+                    <label for="email" class="obligatoria">Email</label>
+                    <input type="email" name="email" id="email" required placeholder="Escribe tu email">
+                </div>
+                <div>
+                    <label for="tlf">Teléfono</label>
+                    <input type="text" name="tlf" id="tlf" placeholder="Escribe tu teléfono">
+                </div>
+                <div>
+                    <label for="web">Sitio web</label>
+                    <input type="text" name="web" id="web" placeholder="Escribe la URL de tu web">
+                </div>
+                <div>
+                    <label for="asunto" class="obligatoria">Asunto</label>
+                    <input type="text" name="asunto" id="asunto" required placeholder="Escribe un asunto">
+                </div>
+                <div>
+                    <label for="mensaje" class="obligatoria">Mensaje</label>
+                    <input type="text" name="mensaje" id="mensaje" placeholder="Deja aquí tu comentario...">
+                </div>
+                <div id="enviar">
+                    <input type="submit" value="ENVIAR" id="enviar2">
+                </div>
+                <p id = "campos">Los campos con <span>*</span> son obligatorios</p>
+            </form>
+        </main>
+        
+    </body>
+</html>

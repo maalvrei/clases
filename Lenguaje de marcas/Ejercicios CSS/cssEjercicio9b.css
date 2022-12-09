@@ -1,0 +1,62 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    border-left: thick solid rgb(213, 114, 252);
+    height:100%;
+    padding: 15px;
+    border-right:thick solid rgb(213, 114, 252);
+}
+
+div {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    
+}
+
+#nombre {
+    margin-top: 0px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+    border-color: rgb(221, 135, 255);
+    width: 90%;
+    padding: 5px;
+}
+
+.obligatoria::after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+}
+#enviar {
+
+    margin-top: 15px;
+    width: 104%;
+ }
+
+ #enviar2 {
+    background-color: blueviolet;
+    color:white;
+ }
+
+ span {
+    color: red;
+ }
+
+ #campos {
+    font-size: 12px;
+ }
+
+ #mensaje {
+    padding-bottom: 50px;
+ }
