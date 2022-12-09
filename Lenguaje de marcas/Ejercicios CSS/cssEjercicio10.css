@@ -4,16 +4,20 @@ th {
 
 .impar {
     font-weight: bold;
+    background-color: rgb(163, 160, 160);
 }
 
 table, th, tr, td {
-    border: 1px black solid;
+    border: 2px solid;
+    border-color: rgb(27, 209, 124);
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 table {
     border-collapse: collapse;
-    width: 10%;
 	height: 300px;
+    margin-left: 20px;
 }
 
 th {
@@ -25,7 +29,17 @@ tr td {
     padding-right: 5px;
 }
 
-main {
+section {
     background-color: blanchedalmond;
-    width: 30%;
+    height: 400px;
+    width: 300px;
+}
+
+p {
+    margin-top: 10px;
+    color: rgb(9, 189, 120);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2px;
 }
