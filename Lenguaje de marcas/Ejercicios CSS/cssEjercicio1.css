@@ -9,12 +9,13 @@ p::first-letter {
     font-size: 150%;
 }
 
-#boom {
+strong {
     color: orange;
 }
 
 #formato1 {
     font-size: 200%;
+    text-decoration: none;
 }
 
 .claves {
@@ -22,12 +23,7 @@ background-color: yellow;
 text-transform: uppercase;
 }
 
-#jorge {
+span {
+    text-decoration:overline underline;
     color: orange;
-}
-
-#dioni {
-    color: orange;
-    border-bottom: 1px goldenrod solid;
-    border-top: 1px goldenrod solid;
 }

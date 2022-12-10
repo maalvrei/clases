@@ -11,34 +11,38 @@
 
 <body>
     <header>Ejercicio 3 de CSS</header>
-    <section id="tabla">
+    <section>
         <table>
             <caption>Tabla 1</caption>
-            <tr>
-                <th>Origen</th>
-                <th>Destino</th>
-                <th>Medio</th>
-            </tr>
-            <tr class="impar">
-                <td>Sevilla</td>
-                <td>Cádiz</td>
-                <td>Tren</td>
-            </tr>
-            <tr class="par">
-                <td>Lugo</td>
-                <td>Oviedo</td>
-                <td>Coche</td>
-            </tr>
-            <tr class="impar">
-                <td>Valencia</td>
-                <td>Huelva</td>
-                <td>Avión</td>
-            </tr>
-            <tr class="par">
-                <td>Alcorcón</td>
-                <td>Vayecas</td>
-                <td>Cercanías</td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Origen</th>
+                    <th>Destino</th>
+                    <th>Medio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sevilla</td>
+                    <td>Cádiz</td>
+                    <td>Tren</td>
+                </tr>
+                <tr>
+                    <td>Lugo</td>
+                    <td>Oviedo</td>
+                    <td>Coche</td>
+                </tr>
+                <tr>
+                    <td>Valencia</td>
+                    <td>Huelva</td>
+                    <td>Avión</td>
+                </tr>
+                <tr>
+                    <td>Alcorcón</td>
+                    <td>Vayecas</td>
+                    <td>Cercanías</td>
+                </tr>
+            </tbody>
             <tfoot>
                 <tr>
                     <td colspan="3">Se muestran en amarillo las líneas pares y en morado las líneas impares</td>
@@ -47,20 +51,23 @@
         </table>
     </section>
     <section id="columnas">
-        <li>
+        <article>
             Actualmente la mayoría de ordenadores están conectados a alguna red (internet, intranet, etc.) y casi todos lo hacen utilizando el modelo TCP/IP. Este modelo es un protocolo para comunicación en redes que permite que un equipo pueda comunicarse dentro de una red. Está basado en el modelo teórico OSI de capas con la que comparte 4 de ellas; sin embargo, ofrece muchas más opciones y es un modelo práctico.
-        </li>
-        <li>
+        </article>
+        <article>
             La comprensión de las características principales de la pila de protocolos de Internet TCP/IP posibilita la configuración de redes básicas, por lo que conocer TCP/IP es fundamental en cualquier formación centrada en trabajar con redes e internet (se llama pila de protocolos a una colección ordenada de protocolos organizados por capas)
-        </li>
+        </article>
     </section>
-    <figure>
-        <img class="imagengrande" src="https://www.mercerhoteles.com/photo/blog/45/1/sevilla-a-los-pies-de-la-giralda.jpg?w=1440" alt="">
-    </figure>
-    <figure>
-        <img class="imagenmediana" src="https://www.mercerhoteles.com/photo/blog/45/1/sevilla-a-los-pies-de-la-giralda.jpg?w=1440" alt="">
-    </figure>
-    <figure>
-        <img class="imagenpequeña" src="https://www.mercerhoteles.com/photo/blog/45/1/sevilla-a-los-pies-de-la-giralda.jpg?w=1440" alt="">
-    </figure>
+    
+    <section>
+        <figure>
+            <img class="imagengrande" src="https://www.mercerhoteles.com/photo/blog/45/1/sevilla-a-los-pies-de-la-giralda.jpg?w=1440" alt="">
+        </figure>
+        <figure>
+            <img class="imagenmediana" src="https://www.mercerhoteles.com/photo/blog/45/1/sevilla-a-los-pies-de-la-giralda.jpg?w=1440" alt="">
+        </figure>
+        <figure>
+            <img class="imagenpequeña" src="https://www.mercerhoteles.com/photo/blog/45/1/sevilla-a-los-pies-de-la-giralda.jpg?w=1440" alt="">
+        </figure>
+    </section>
 </body>

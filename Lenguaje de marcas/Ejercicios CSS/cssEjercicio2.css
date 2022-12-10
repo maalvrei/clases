@@ -3,6 +3,10 @@ html {
     background-color: rgb(246, 248, 117);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     font-size: large;
     font-weight: bold;

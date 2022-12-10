@@ -1,8 +1,12 @@
 figure {
     text-align: left;
+    width: 200px; /*   Para ser exactos: si no se pone figure ocupa todo el ancho de la pantalla y al pasar por zonas en blanco a la derecha de la foto también muestra figcaption */
 }
-
+figure figcaption {
+    display:none; /* se esconde texto*/
+}
 figure:hover figcaption{
+    display:block; /* se muestra texto*/
     position: relative;
     top: -30px;
     color: white;

@@ -1,9 +1,12 @@
-.par {
-    color:yellow
+table{
+    color:black;
+}
+tbody tr:nth-child(odd) {
+    color:purple
 }
 
-.impar {
-    color:purple
+tbody tr:nth-child(even)  {
+    color:yellow
 }
 
 td {
@@ -11,17 +14,11 @@ td {
 }
 
 header {
-    text-align: center;
     font-size: 50px;
 }
 
 table {
     text-align: center;
-}
-
-#tabla {
-    margin-top: 35px;
-    background-color: rgb(235, 22, 22);
 }
 
 #columnas {
@@ -31,10 +28,6 @@ table {
     width: 50%;
     margin-top: 35px;
     text-align: center;
-}
-
-#columnas li {
-    list-style: none;
 }
 
 .imagengrande {

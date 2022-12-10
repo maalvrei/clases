@@ -1,4 +1,4 @@
-html {
+* {
     font-family: system-ui;
     font-size: 14px;
     line-height: 1.5;
@@ -29,7 +29,7 @@ h1 {
     font-size: 2em;
 }
 
-h1 span .special {
+h1 span.special {
     color: green;
     text-decoration: underline pink; 
     background-color: black;
@@ -52,3 +52,7 @@ h1 span .special {
     background-color: #DD1E64;
 }
 
+
+#anuncio p {
+    color: white;
+}
