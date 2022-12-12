@@ -9,26 +9,23 @@ main {
 }
 
 div {
-    margin: 0 auto;
-    display: block;
+    width: 18%;
     border: 1px black solid;
     padding: 5px;
+    text-align: center;
 }
 
 .mujer {
     height: 100px;
     width: 100px;
-    margin: 0 auto;
 }
 
-.nombre {
-    text-align: center;
+h2{
     background-color: grey;
-    width: 100%;
 }
 
 div p {
-    width: 100px;
+    text-align: justify;
     font-size: 10px;
-    text-align: center;
+    
 }
