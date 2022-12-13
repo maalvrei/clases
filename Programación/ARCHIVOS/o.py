@@ -1,1 +1,2 @@
 print('hola')
+o = 'hola'
