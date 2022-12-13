@@ -15,6 +15,22 @@ td {
 
 header {
     font-size: 50px;
+    text-align: center;
+
+}
+
+section {
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    margin:0 auto;
+}
+
+header, section {
+    margin: 0 auto;
+    width: 80%;
 }
 
 table {
