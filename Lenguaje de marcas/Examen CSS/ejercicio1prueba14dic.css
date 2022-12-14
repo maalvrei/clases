@@ -3,16 +3,24 @@ ul li:first-child {
     color: blue;
 }
 
+/* con esto hago que el primer hijo de <ul> sea de color azul y con tamaño 20px */
+
 ul li:last-child {
     font-size: 25px;
     color: red;
 }
+
+/* con esto hago que el ultimo hijo de <ul> sea de color rojo y de tamaño 25px */
 
 ul li:nth-child(2) {
     list-style-image: url('vistobueno.png');
     margin-left: 15px;
 }
 
+/* con esto hago que el segundo hijo de <ul> tenga el tick verde y lo desplazo a la derecha añadiendo margen a la izquierda de 15px */
+
 ul li:nth-child(4) {
     list-style-image: url('vistobueno.png');
 }
+
+/* con esto hago que el cuarto hijo de <ul> tenga el tick verde*/

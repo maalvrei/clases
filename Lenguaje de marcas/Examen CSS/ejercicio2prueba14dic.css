@@ -7,10 +7,13 @@ main {
     text-align: right;
 }
 
+/* aqui establezco el ancho y la altura de la caja para que no se vea todo el documento en aquamarinea. luego, establezco la imagen de fondo 02ribete.png y le diho que no se repita. ademas, alineo el texto a la derecha para que la p se quede en la derecha*/
 p {
     padding-right: 15px;
     font-weight: bold;
 }
+
+/* aqui establezco un margen a la derecha al parrafo p y lo pongo en negrita*/
 
 div::after {
     content: url('03lazorojo.png');
@@ -18,3 +21,5 @@ div::after {
     top: 100px;
     right: 10px;
 }
+
+/* he decidido añadir el lazo rojo abajo diciendole que lo añada despues del div y jugando con la posicion relativa*/
