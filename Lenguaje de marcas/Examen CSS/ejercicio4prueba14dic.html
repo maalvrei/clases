@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="ejercicio4prueba14dic.css">
+</head>
+<body>
+    <header><h1>Ejercicio 4</h1></header>
+    <main>
+        <form action="#" method="post">
+            <section>
+                <fieldset>
+                    <legend>Información personal</legend>
+                    <div>
+                        <label for="nombre" class="obligatorio">Nombre: </label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Máximo 25 caracteres" maxlength="25" required pattern="[^0-9]+">
+                        <label for="apellidos" class="obligatorio" >Apellidos: </label>
+                        <input type="text" name="apellidos" id="apellidos" placeholder="Máximo 50 caracteres" maxlength="50" required pattern="[^0-9]+">
+                    </div>
+    
+                    <div>
+                        <label for="genero">Género: </label>
+                        <select name="genero" id="genero">
+                            <option value="Hombre">Hombre </option>
+                            <option value="Mujer">Mujer </option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="nacimiento" class="obligatorio">Fecha de nacimiento: </label>
+                        <input type="date" name="nacimiento" id="nacimiento" required>
+                    </div>
+                    <div>
+                        <span class="obligatorio">Vivo en</span>
+                        <input type="radio" name="ciudad" id="sevilla" value="sevilla" required>
+                        <label for="sevilla">Sevilla</label>
+                        <input type="radio" name="ciudad" id="cadiz" value="cadiz">
+                        <label for="cadiz">Cádiz</label>
+                        <input type="radio" name="ciudad" id="badajoz" value="badajoz">
+                        <label for="badajoz">Badajoz</label>
+                    </div>
+                </fieldset>
+            </section>
+            <section>
+                <fieldset>
+                    <legend>
+                        <span class="obligatorio">Correo electrónico</span> y envío
+                    </legend>
+                    <div>
+                        <input type="text" name="nombre_usuario" id="nombre_usuario" placeholder="Nombre de usuario" maxlength="20" required pattern="[a-zA-Z0-9]+">
+                        @
+                        <input type="text" name="dominio" id="dominio" placeholder="Dominio" maxlength="15" required pattern="[a-z]+">
+                        .
+                        <select name="sufijo" id="sufijo">
+                            <option value=".es">.es</option>
+                            <option value=".com">.com</option>
+                            <option value=".org">.org</option>
+                        </select>
+                        <input type="submit" value="Enviar" id="enviar">
+                    </div>
+                </fieldset>
+            </section>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <header>
+        <h1>Ejercicio 3</h1>
+    </header>
+<!-- 
+    <div id="menu">
+        <a href="#info-local">Información <span class="importanteNegrita">Local</span></a>
+        <a href="#info-nacional">Información <span class="importanteNegrita">Nacional</span></a>
+        <a href="#info-internacional">Información <span class="importanteNegrita">Internacional</span></a>
+        <a href="https://www.resumenprensa.com/aldia.html">Resumen prensa</a>
+    </div>
+
+    Este div con id="menu" debería ser reemplazado por la etiquieta <nav>. Esta etiqueta es más correcta semánticamente si lo que queremos establecer
+    en esta caja es un menú de navegación para la página web. Además, las etiquietas <span> yo no las veo necesarias. Lo que se intenta con ese <span> es hacer que la palabra siguiente esté en negrita. Yo para eso mejor utilizaría la etiqueta <strong>, que es más correcta semánticamente, indica que el texto es importante y lo pone en negrita. Por ejemplo, lo pondría así:
+    <a href="#info-local">Información <span class="importanteNegrita">Local</span></a>
+    se debería escribir de la siguiente manera:
+    <a href="#info-local">Información <strong>Local</strong></a>
+    Con eso me ahorro crear una clase y me lo hace solo el html.
+
+-->
+
+<nav>
+    <a href="#info-local">Información <strong>Local</strong></a>
+    <a href="#info-nacional">Información <strong>Nacional</strong></a>
+    <a href="#info-internacional">Información <strong>Internacional</strong></a>
+    <a href="https://www.resumenprensa.com/aldia.html">Resumen prensa</a>
+</nav>
+
+    <main>
+        <h2>Las noticias locales</h2>
+        <!-- <section id="info-local"> Esto lo he cambiado porque me parece más adecuado usar guiones bajos "_" en los id que usar guiones normales "-"-->
+        <section id="info_local">
+            <!-- 
+            <h3>Las noticias locales</h3>
+            Aquí se utiliza la etiqueta h3 sin anteriormente haber utilizado ninguna etiqueta h2 en todo el documento. Para
+            poder utilizar un h3 siempre debemos tener antes una etiqueta h2, y para utilizar una etiqueta h2 debemos utilizar siempre antes una
+            etiqueta h1. Yo además he preferido añadir h2 fuera de section.
+            -->
+            <article>
+                <!-- 
+                <time datetime="10-06-2022">10 de Junio de 2022</time>
+                El formato del atributo datetime está mal puesto. Se ha utilizado dd/mm/yyyy cuando el correcto es yyyy/mm/dd-->
+                <time datetime="2022-06-10">10 de Junio de 2022</time>
+                <!-- 
+                <img src="foto.png" alt="Fotografía decorativa">
+                Esta imagen se va a mostrar en linea, ya que la etiqueta <img> es una etiqueta en linea. Para que se mostrase debajo de la fecha, que sería lo más deseado, yo la añadiría dentro de una etiqueta <figure> que además da un efecto de sangrado a la izquierda y nos deja añadir la etiqueta <figcaption> para incluir un pie de foto si lo deseamos.-->
+                <figure><img src="foto.png" alt="Fotografía decorativa"></figure>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde ipsa consequatur repellat maiores, cumque, facere exercitationem rerum eum delectus quia quos vel iste magnam dolor nam voluptatibus quod reiciendis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde ipsa consequatur repellat maiores, cumque, facere exercitationem rerum eum delectus quia quos vel iste magnam dolor nam voluptatibus quod reiciendis.</p>
+            </article>
+            <article>
+                <!-- 
+                <time datetime="02-10-2022">2 de Octubre de 2022</time>
+                El formato del atributo datetime está mal puesto. Se ha utilizado dd/mm/yyyy cuando el correcto es yyyy/mm/dd-->
+                <time datetime="2022-10-02">2 de Octubre de 2022</time>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde ipsa consequatur repellat maiores, cumque, facere exercitationem rerum eum delectus quia quos vel iste magnam dolor nam voluptatibus quod reiciendis.</p>
+            </article>
+        </section>
+        <h2>Las noticias nacionales</h2>
+        <!-- <section id="info-nacional">
+            Esto lo he cambiado porque me parece más adecuado usar guiones bajos "_" en los id que usar guiones normales "-" -->
+            <section id="info_nacional"></section>
+            <!-- 
+            <h3>Las noticias nacionales</h3>
+            Aquí se utiliza la etiqueta h3 de nuevo de manera incorrecta. Yo además he preferido añadir h2 fuera de section-->
+            <article>
+                <!-- 
+                <time datetime="08-05-2022">8 de Mayo de 2022</time>
+                El formato del atributo datetime está mal puesto. Se ha utilizado dd/mm/yyyy cuando el correcto es yyyy/mm/dd-->
+                <time datetime="2022-05-08">8 de Mayo de 2022</time>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde ipsa consequatur repellat maiores, cumque, facere exercitationem rerum eum delectus quia quos vel iste magnam dolor nam voluptatibus quod reiciendis.</p>
+            </article>
+            <article>
+                <!-- 
+                <time datetime="14-11-2022">14 de Noviembre de 2022</time>
+                El formato del atributo datetime está mal puesto. Se ha utilizado dd/mm/yyyy cuando el correcto es yyyy/mm/dd-->
+                <time datetime="2022-11-14">14 de Noviembre de 2022</time>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde ipsa consequatur repellat maiores, cumque, facere exercitationem rerum eum delectus quia quos vel iste magnam dolor nam voluptatibus quod reiciendis.</p>
+                <p>Soluta, numquam quibusdam perferendis eos repudiandae, neque, perspiciatis atque reprehenderit illo aliquam illum nulla? Distinctio magnam, corrupti beatae sunt asperiores molestiae quidem. Quaerat cupiditate ab molestiae quam quod minus amet!</p>
+            </article>
+        </section>
+        <h2>Las noticias internacionales</h2>
+        <!-- <section id="info-internacional">
+            Esto lo he cambiado porque me parece más adecuado usar guiones bajos "_" en los id que usar guiones normales "-" -->
+            <section id="info_internacional">
+            <!-- 
+            <h3>Las noticias internacionales</h3>
+            Aquí se utiliza la etiqueta h3 de nuevo de manera incorrecta. Yo además he preferido añadir h2 fuera de section-->
+            <article>
+                <!-- 
+                <time datetime="14-11-2022">6 de Noviembre de 2022</time>
+                El formato del atributo datetime está mal puesto. Se ha utilizado dd/mm/yyyy cuando el correcto es yyyy/mm/dd-->
+                <time datetime="2022-11-14">6 de Noviembre de 2022</time>
+            <!--
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime adipisci aut eveniet dolorum quaerat consectetur molestiae, saepe asperiores. Similique, esse obcaecati assumenda laboriosam cum at quas hic aliquid deleniti! Impedit?.
+                <hr>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores doloribus ipsam sapiente beatae, aliquam adipisci praesentium quis esse perspiciatis nisi nihil cupiditate aliquid laboriosam voluptatem eaque repudiandae optio officia doloremque!
+                </p>
+                Aquí se utiliza <hr> para crear una linea horizontal que separe ambos parrafos. Está bien, usar <hr>, pero aquí se ha utilizado dentro de la misma
+                etiqueta <p>. Lo correcto hubiese sido cerrar el parrafo anterior, añadir <hr> y despues abrir otro parrafo después, no cortar el mismo párrafo en dos con <hr>
+            -->
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime adipisci aut eveniet dolorum quaerat consectetur molestiae, saepe asperiores. Similique, esse obcaecati assumenda laboriosam cum at quas hic aliquid deleniti! Impedit?.</p>
+            <hr>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores doloribus ipsam sapiente beatae, aliquam adipisci praesentium quis esse perspiciatis nisi nihil cupiditate aliquid laboriosam voluptatem eaque repudiandae optio officia doloremque!</p>
+            </article>
+            <!--Este <article> lo podríamos quitar y no pasaría nada ya que sólo hablamos de una cosa en este <section>-->
+        </section>
+    </main>
+    <!-- 
+    <footer width="100%" height="20px">
+    No se deben incluir elementos de estilo en HTML, siempre en CSS. El tamaño de aquellos elementos que queramos modificar
+    debe ser hecho con CSS.-->
+    <footer>
+        <!-- 
+        <address>Prueba Unidad Formativa 2</address>
+    Yo aquí no utilizaría una etiqueta address, utilizaría mejor <em> para indicar que es un elemento importante a tener en cuenta, que nos indica que estamos trabajando con un documento correspondiente a una prueba de examen. En cambio, <address> es mejor utilizarla cuando vamos a indicar la autoría o la fuente de un documento.-->
+        <em>Prueba Unidad Formativa 2</em>
+    </footer>
+
+</body>
+</html>

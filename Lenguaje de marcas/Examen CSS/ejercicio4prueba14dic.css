@@ -1,0 +1,34 @@
+.obligatorio::after {
+    content: '*';
+    color: red;
+    position: relative;
+    top: -5px;
+    right: 10px;
+}
+
+legend {
+    letter-spacing: 5px;
+    color: grey;
+    font-size: 25px;
+}
+
+main {
+    width: 530px;
+    height: 230px;
+    background-color: rgb(120, 250, 250);
+}
+
+fieldset {
+    margin-top: 15px;
+}
+
+#enviar {
+    margin-left: 15px;
+    color:purple;
+    border: 2px rgb(255, 0, 170) solid;
+}
+
+section {
+    margin-right: 5px;
+    margin-left: 15px;
+}
