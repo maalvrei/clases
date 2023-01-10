@@ -1,0 +1,15 @@
+
+ li:first-child {
+    font-size:120%;
+    color:blue;
+}
+li:last-child {
+    font-size:170%;
+    color:red;
+}
+li:nth-child(2) { /* podría haberse usado :nth-of-type(2) */
+    list-style-position: inside;
+}   
+li:nth-child(even) { /* podría haberse usado :nth-of-type(even) */
+    list-style-image: url("imagenes/vistobueno.png");
+}

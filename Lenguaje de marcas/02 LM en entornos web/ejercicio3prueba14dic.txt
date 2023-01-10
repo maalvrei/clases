@@ -1,0 +1,9 @@
+Soluciones:
+* <div id="menu"></div> debe usarse la etiqueta <nav></nav> sin id salvo que haya varios y se pueden agrupar propiedades CSS con una clase.
+*  <span class="importanteNegrita"></span> debe usarse <strong></strong> ya que lo que queremos es destacar su importancia. Con STRONG por defecto pone en negrita pero puede modificarse.
+* <a href="https://www.resumenprensa.com/aldia.html">Resumen prensa</a> cuando incluimos enlaces externos debemos poner target="_blank"
+* Todos los enlaces deberían llevar title="haciendo clic irá a X" para informar de la acción.
+* No puede escribirse <h3></h3> sin <h2></h2>.
+* <img src="foto.png" alt="Fotografía decorativa">. Cuando es una imagen decorativa el atributo alt debe ir vacío (alt="")
+* Cada párrafo debe ir dentro de <p></p> aunque tenga un elemento bloque <HR> en medio.
+* <footer width="100%" height="20px"> No se puede incluir formato dentro de las etiquetas. Separación de contenido y formato. 

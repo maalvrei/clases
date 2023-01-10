@@ -1,0 +1,15 @@
+.ejercicio2 {
+    width: 500px;
+    height: 250px;
+    background-color: paleturquoise;
+    background-image: url("imagenes/02ribete.png"), url("imagenes/03lazorojo.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
+}
+
+.ejercicio2 p {
+    text-align: right;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-right: 10px;
+}

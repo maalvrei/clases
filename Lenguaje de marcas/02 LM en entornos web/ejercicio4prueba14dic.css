@@ -1,0 +1,48 @@
+/* Formulario - fieldset - legend */ 
+form {
+    background-color: aquamarine;
+    width: 40%;
+    padding: 2px;
+}
+legend {
+    color: gray;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+}
+fieldset {
+    margin-top:4px;
+}
+/*******************************************************/
+
+
+/* formatos de las dos clases de span */
+.obligatorio {
+    position:relative;
+    top:-5px;
+    left:-5px;
+    color:red;
+}
+
+.correo {
+    font-weight: bold;
+    font-style: italic;
+}
+/*******************************************************/
+/* botón de submit */
+#enviar {
+    margin-left:20px;
+    border-radius: 10px;
+    color:rgb(153, 56, 153);
+}
+/*******************************************************/
+
+/* Separacion entre las "filas" de label/inputs*/
+div{
+    padding:2px;
+}
+
+form fieldset:first-child div:last-child p {
+    margin: 0px;
+} /* aunque en este caso con poner p hubiera bastado */ 
+
+/*******************************************************/

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio4prueba14dic.css">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ejercicio 4</h1>
+    </header>
+    <main>
+        <form action="" method="post">
+            <ol>
+                <li>
+                    <fieldset>
+                        <legend>Información personal</legend>
+                        <div>
+                            <label for="nombre">Nombre<span class="obligatorio">*</span></label>
+                            <input type="text" id="nombre" name="nombre" required placeholder="Longitud máxima 25 caract.">
+                            <label for="apellidos">Apellidos<span class="obligatorio">*</span></label>
+                            <input type="text" id="apellidos" name="apellidos" placeholder="Longitud máxima 50 caract.">
+                        </div>
+                        <div>
+                            <label for="genero">Género</label>
+                            <select name="genero" id="genero">
+                                <option disabled>Elige género</option>
+                                <option value="h">Hombre</option>
+                                <option value="m">Mujer</option>
+                                <option value="o">Otro</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="nacimiento">Fecha de nacimiento<span class="obligatorio">*</span></label>
+                            <input type="date" id="nacimiento" name="nacimiento">
+                        </div>
+                        <div>
+                            <p>Vivo en<span class="obligatorio">*</span>
+                                <input type="radio" name="ciudad" id="sevilla" value="sevilla">
+                                <label for="sevilla">Sevilla</label>
+                                <input type="radio" name="ciudad" id="cadiz" value="cadiz">
+                                <label for="cadiz">Cádiz</label>
+                                <input type="radio" name="ciudad" id="badajoz" value="badajoz">
+                                <label for="badajoz">Badajoz</label>
+                            </p>
+                        </div>
+                    </fieldset>
+                </li>
+                <li>
+                    <fieldset>
+                        <legend>Correo electrónico<span class="obligatorio">*</span> y envío</legend>
+                        <div>
+                            <input type="text" id="usuario" name="usuario" placeholder="Nombre de usuario" required>
+                            <span class="correo">@</span>
+                            <input type="text" id="dominio" name="dominio" placeholder="Dominio" required>
+                            <span class="correo">.</span>
+                            <select name="sufijo" id="sufijo" required>
+                                <option value="es" title="España">es</option>
+                                <option value="pt" title="Portugal">pt</option>
+                                <option value="ad" title="Andorra">ad</option>
+                            </select>
+                            <input type="submit" value="Enviar" id="enviar" title="Enviar datos al servidor">
+                        </div>
+                    </fieldset>
+                </li>
+            </ol>
+        </form>
+    </main>
+    <footer>
+        <address>Prueba Unidad Formativa 2</address>
+    </footer>
+</body>
+
+</html>
