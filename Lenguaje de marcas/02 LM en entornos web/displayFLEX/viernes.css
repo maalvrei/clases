@@ -1,0 +1,42 @@
+#contenedor {
+    width: 800px;
+    height: 620px;
+    border: 3px green solid;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor div {
+    border: 3px red solid;
+}
+
+#contenedor>:nth-child(1) {
+    width: 40%;
+    height: 30%;
+    order: 1;
+    background-color: blueviolet;
+}
+
+#contenedor :nth-child(2) {
+    width: 50%;
+    height: 30%;
+    background-color: yellow;
+}
+
+#contenedor :nth-child(3) {
+    width: 30%;
+    height: 30%;
+    background-color: orange;
+}
+
+#contenedor img {
+    width: 40px;
+}
