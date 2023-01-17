@@ -1,0 +1,6 @@
+nav ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    list-style: none;
+}

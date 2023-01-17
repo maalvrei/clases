@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Esta página está acabando el martes</title>
+		<link>https://www.paginadelmartes.com</link>
+		<description>Mi paginita buena</description>
+		<item>
+			<title>Receta nueva</title>
+			<link>https://wwww.paginaprimera.com</link>
+			<description>Pollo con almendras</description>
+		</item>
+		<item>
+			<title>Receta nueva 2</title>
+			<link>https://wwww.paginaprimera2.com</link>
+			<description>Tortilla de patatas</description>
+		</item>
+		<item>
+			<title>Receta nueva 3</title>
+			<link>https://wwww.paginaprimera3.com</link>
+			<description>Ensalada mixta</description>
+		</item>
+	</channel>
+</rss>
