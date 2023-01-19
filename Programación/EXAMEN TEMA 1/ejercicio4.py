@@ -2,7 +2,7 @@
 
 def numero_palabras():
     nombre_archivo = 'archivo.txt'
-    ruta_base = 'C:\\Users\\Tarde\\Desktop\\'
+    ruta_base = 'C:\\Users\\migue\\Desktop\\CoreNetworks\\clases\\Programación\\EXAMEN TEMA 1\\'
     datos = ruta_base + nombre_archivo
     with open(datos, 'r') as a:
         parrafos = a.readline()
