@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Vertical Garden Design</title>
+		<link>https://www.verticalgardendesign.com/</link>
+		<description>Productos de jardinería</description>
+		<item>
+			<title>Vertical Garden</title>
+			<link>https://www.verticalgardendesign.com/products/vertical-garden</link>
+			<description>Flores y vegetación de decoración vertical</description>
+		</item>
+		<item>
+			<title>Pinnacle</title>
+			<link>https://www.verticalgardendesign.com/products/pinnacle</link>
+			<description>Preciosos pinos de jardin</description>
+		</item>
+		<item>
+			<title>Canopy</title>
+			<link>https://www.verticalgardendesign.com/products/canopy</link>
+			<description>Flores que cuelgan del techo</description>
+		</item>
+	</channel>
+</rss>
