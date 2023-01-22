@@ -1,0 +1,84 @@
+html {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+header nav {
+    margin-right: 40px;
+    margin-bottom: 15px;
+}
+
+header ul {
+    display: none;
+}
+
+header nav:hover ul {
+    display: block;
+    position: absolute;
+    top: 75px;
+    background-color: white;
+    opacity: 70%;
+    border: black 2px solid;
+    border-style: double;
+    border-radius: 8px;
+    width: 70px;
+    height: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 100%;
+}
+
+figure img {
+    width: 500px;
+    height: 500px;
+}
+
+figcaption {
+    position: relative;
+    top : -50px;
+    background-color: white;
+    opacity: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+}
+
+footer nav ul {
+    display: flex;
+    gap: 5px;
+}
