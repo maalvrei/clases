@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?> <!-- el enconding debe ir entre comillas dobles-->
+﻿<?xml version="1.0" encoding=UTF-8?>
 <rss version="2.0">
 <channel>
 <description>El Periódico - Todas las noticias de la portada</description>
+<language>es
 <link>https://www.elperiodico.com/es/</link>
+<pubDate>Sat, 15 Jan 2022 13:10:54 +0200</pubDate>
 <title>El Periódico - portada</title>
+</language>
 <item>
-    <title>Novak Djokovic: Última hora desde Australia / DIRECTO </title> <!-- la etiqueta title debe cerrase como corresponde ya que no puede ir vacía-->
-    <link>https://www.elperiodico.com</link> <!-- la etiqueta link no debe llevar href como si se tratase de una etiqueta a. además, en link se estaba colocando la url en lugar del link-->
-    <url>https://www.elperiodico.com/es/tenis/20220115/novak-djokovic-ultima-hora-australia-directo-13096734</url>
-    <pubDate>Sat, 15 Jan 2022 12:43:00 +0200</pubDate> <!-- la etiqueta pubdate va solo dentro del item-->
-    <description>El Gobierno de Australia ha cancelado este viernes el visado del tenista Novak Djokovic. Abrimos un hilo con las últimas noticias y las reacciones producidas por esta noticia de impacto deportivo y mundial.</description> <!-- la etiqueta description debe cerrarse antes de la etiqueta item-->
+    <title/>Novak Djokovic: Última hora desde Australia / DIRECTO
+    <link href="https://www.elperiodico.com/es/tenis/20220115/novak-djokovic-ultima-hora-australia-directo-13096734"/>
+    <pubDate>Sat, 15 Jan 2022 12:43:00 +0200</pubDate>
+    <description>El Gobierno de Australia ha cancelado este viernes el visado del tenista Novak Djokovic. Abrimos un hilo con las últimas noticias y las reacciones producidas por esta noticia de impacto deportivo y mundial.
 </item>
+</description>
 </channel>
 </rss>
