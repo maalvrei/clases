@@ -5,6 +5,16 @@
         <link>https://www.efe.com</link>
         <description>Últimas noticias de la Agencia Efe. Fehaciente, fidedigno y fácil. La información con EFE. Edición España.</description>
         <language>es-ES</language>
+        <item>
+            <title>Nadia de Santiago</title>
+            <url>https://www.efe.com/efe/espana/cultura/nadia-de-santiago-es-importante-cambiar-la-palabra-olvidar-por-superar/10005-4718145</url>
+            <link>https://www.efe.com</link>
+        </item>
+        <item>
+            <title>Precios y estrés en la cadena alimentaria</title>
+            <url>https://www.efe.com/efe/espana/economia/los-precios-elevan-el-estres-en-toda-la-cadena-de-produccion-alimentaria/10003-4718114</url>
+            <link>https://www.efe.com</link>
+        </item>
         <copyright>© Agencia EFE, S.A. Avd. de Burgos, 8-B. 28036 Madrid. España Tel: +34 91 346 7100. Todos los derechos reservados</copyright>
     </channel>
 </rss>
