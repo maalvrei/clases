@@ -1,0 +1,5 @@
+<!ELEMENT autor (nombre, empresa, telefono)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT empresa (nombreEmpresa)>
+<!ELEMENT nombreEmpresa (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>

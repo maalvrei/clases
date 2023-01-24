@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE autor SYSTEM "martes.dtd">
+<autor>
+<nombre>Alejandro Romero</nombre>
+<empresa>
+<nombreEmpresa>Software Alcuza</nombreEmpresa>
+</empresa>
+<telefono>954119023</telefono>
+</autor>
