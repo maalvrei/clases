@@ -5,25 +5,23 @@ html {
     background-color: white;
 }
 
-#fraseInicial {
-    position: relative;
-    top: -100px;
-}
-
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     top: 50px;
+    text-align: center;
+    height: 110px;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    align-items: center;
+    width: 80%;
     height: 800px;
-    background-color: blue;
+    background-color: rgb(88, 204, 219);
     margin-top: 20px;
 }
 
@@ -35,14 +33,11 @@ main {
     height: 80%;
 }
 
-
-
 span {
     font-size: 40px;
 }
 
 div {
-
     width: 300px;
     height: 400px;
     background-color: white;
@@ -55,7 +50,7 @@ div {
 }
 
 h2 {
-    color: rgb(252, 227, 0);
+    color: rgb(96, 185, 245);
 }
 
 img {
@@ -63,13 +58,32 @@ img {
     height: 50px;
 }
 
-
-
 header {
-    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(88, 204, 219);;
+    background-color: white;
+    width: 40%;
+    border: white solid 1px;
+    border-radius: 15px;
 }
 
 #segundaCaja {
     width: 300px;
     height: 500px;
+}
+
+a {
+    margin-top: 60px;
+    text-decoration:none;
+}
+
+#descripcion {
+    width: 80%;
+    text-align: center;
+}
+
+#segundaCaja a {
+    margin-top: 160px;
 }
