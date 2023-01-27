@@ -82,6 +82,8 @@ a {
 #descripcion {
     width: 80%;
     text-align: center;
+    font-size: 20px;
+    color: blue;
 }
 
 #segundaCaja a {
