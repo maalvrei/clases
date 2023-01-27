@@ -1,6 +1,7 @@
 nav ul {
     display: flex;
+    gap: 10px;
+    flex-direction: column;
     width: 40%;
-    justify-content: space-evenly;
     list-style: none;
 }
