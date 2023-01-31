@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<!-- En primer lugar, faltaba la declaración del documento, con el correspondiente cierre de la etiqueta <rss> al final del código -->
+<channel><!-- En segundo lugar, faltaba la etiqueta channel, también con su correspondiente cierre antes del final del código, justo antes de la etiquieta de cierre </rss> -->
+<title>Clases</title>
+<link>https://dandoelprimerpaso.home.blog/</link>
+<description>Las diferentes clases que se van a impartir</description>
+<!-- lo siguiente ha sido colocar los tres elementos que siempre debe llevar el channel de cualquier documento rss, que son title, para el titulo; link, para el enlace de la web; y description, para proporcionar una descripcion de lo que alberga esa web. Dentro del channel pueden ir muchas mas etiquetas, como image, language, etc. Por ejemplo: -->
+<language>es-ES</language>
+<!-- así establecemos que es un rss con informacion en español. Tambien una etiqueta copyright: -->
+<copyright>© Agencia EFE, S.A. Avd. de Burgos, 8-B. 28036 Madrid. España Tel: +34 91 346 7100. Todos los derechos reservados</copyright>
+<!-- con la cual podemos indicar la autoría de la información que vamos a proporcionar . Una vez hecho esto, ya podemos añadir todos los items que queramos en nuestro archivo rss, los cuales tambien deben llevar obligatoriamente siempre un title, un link y un description si queremos utilizarlas de manera correcta.-->
+<item>
+<title>La clase del miércoles</title>
+<link>https://dandoelprimerpaso.home.blog/2020/01/15/dia-19-miercoles-15-01-2020/</link>
+<description>EJEMPLO de uso de múltiples redes sociales y soportes.</description>
+</item>
+</channel>
+</rss>

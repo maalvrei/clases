@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Diario de Sevilla --> <!-- El comentario no puede antes de la declaración del documento, no puede ser la primera linea del xml -->
+<rss version="2.0"> <!-- Faltaban las comillas para el "2.0" -->
+<channel>
+    <title>Diario de Sevilla - Home</title>
+    <link>https://www.diariodesevilla.es/ </link> <!-- la etiqueta link debe ir convenientemente abierta y cerrada. <link/> no es una manera correcta ni de abrirla ni de cerrarla -->
+    <description>Diario de Sevilla - Home</description>
+    <language>es-ES</language> <!-- language debe ir escrito correctamente, no lenguaje. También debe añadirse el -ES, en este caso porque es en español, si fuese en ingles seria en-EN -->
+    <item>
+        <title>Coronavirus Sevilla: Los contagios bajan del millar pero repuntan los hospitalizados</title>
+        <link>https://www.diariodesevilla.es/sevilla/coronavirus-sevilla-18-enero-2022_0_1648636337.html </link>
+	<!-- el texto Información complementaria no puede ir suelto fuera de alguna etiqueta-->
+        <description>
+        Los hospitales alcanzan su cifra de ingresos más alta de la sexta ola con 415 pacientes</description>
+    <!-- <item> esta etiqueta <item> sobra ya que no contiene nada y en RSS no pueden ir etiquetas vacías como en XML -->    
+    </item>
+</channel>
+</rss> <!-- La etiqueta de cierre </rss> debe ir en minusculas, al igual que la de apertura -->
