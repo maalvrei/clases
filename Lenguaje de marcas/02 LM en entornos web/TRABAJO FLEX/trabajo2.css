@@ -56,6 +56,7 @@ h2 {
     background-color: rgb(255, 246, 116);
     text-align: center;
     border: 2px solid rgb(255, 246, 116);
+    letter-spacing: 1px;
 }
 
 img {
@@ -80,8 +81,9 @@ header {
 }
 
 a {
-    margin-top: 60px;
     text-decoration:none;
+    font-size: 23px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 #descripcion {
@@ -99,4 +101,60 @@ a {
 
 div p:first-of-type {
     color: rgb(96, 185, 245);
+}
+
+header:hover {
+    width: 70%;
+    transition: 4s;
+}
+
+div:hover {
+    height: 500px;
+    transition: 2s;
+}
+
+header p {
+    display: none;
+
+}
+
+header:hover p {
+    display: block;
+}
+
+#comentario {
+    text-align: center;
+    opacity: 0%;
+}
+
+div:hover #comentario {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    width: 80%;
+    opacity: 100%;
+    transition: 2s;
+    color:rgb(66, 66, 66);
+    background-color: rgb(176, 202, 212);
+    padding: 3px;
+    border: 2px solid rgb(176, 202, 212);
+    border-radius: 5px;
+}
+
+#twitter {
+    position:absolute;
+    top: 730px;
+}
+
+#facebook {
+    position:absolute;
+    top: 595px;
+}
+
+#instagram {
+    position:absolute;
+    top: 730px;
+}
+
+#segundaCaja:hover {
+    height: 550px;
 }
