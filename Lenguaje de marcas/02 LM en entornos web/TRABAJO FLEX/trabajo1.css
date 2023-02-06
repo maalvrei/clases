@@ -76,6 +76,7 @@ footer {
     display: flex;
     justify-content: center;
     background-color: greenyellow;
+    padding: 10px;
 }
 
 footer nav ul {
@@ -83,3 +84,7 @@ footer nav ul {
     gap: 5px;
 }
 
+li img {
+    width: 30px;
+    height: 30px;
+}
