@@ -1,0 +1,17 @@
+<!ELEMENT ediciones (cabecera, tabla)>
+<!ELEMENT cabecera (titulo, subtitulo, descripcion, fecha)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT subtitulo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT tabla (norte, centro, sur)>
+<!ENTITY % trimestres "trim1?, trim2?, trim3?, trim4?">
+<!ELEMENT norte (%trimestres;)>
+<!ELEMENT centro (%trimestres;)>
+<!ELEMENT sur (%trimestres;)>
+
+<!ELEMENT trim1 (#PCDATA)>
+<!ELEMENT trim2 (#PCDATA)>
+<!ELEMENT trim3 (#PCDATA)>
+<!ELEMENT trim4 (#PCDATA)>
+

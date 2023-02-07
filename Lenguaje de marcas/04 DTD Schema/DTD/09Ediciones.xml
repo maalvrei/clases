@@ -8,7 +8,6 @@
     <fecha>30/12/2009</fecha>
   </cabecera>
   <tabla>
-    <region>
       <norte>
         <nombre>Norte</nombre>
         <trimestre>1</trimestre>
@@ -42,6 +41,5 @@
         <trimestre>4</trimestre>
         <lib_vendidos>30000</lib_vendidos>
       </sur>
-    </region>
   </tabla>
 </ediciones>
