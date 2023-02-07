@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE pizzas SYSTEM "Ejercicio4DTD.dtd">
+<pizzas>
+<ingredientes>
+<ingrediente coding="moz">Mozarela</ingrediente>
+<ingrediente coding="tom">Tomate</ingrediente>
+<ingrediente coding="york">Jamon cocido</ingrediente>
+</ingredientes>
+<tipos>
+<tipo nombre="procuito" ingredientes="moz tom york"/>
+</tipos>
+</pizzas>
