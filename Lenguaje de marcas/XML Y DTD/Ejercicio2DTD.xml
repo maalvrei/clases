@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE geometría SYSTEM "Ejercicio2DTD.dtd">
-<geometría>
+<!DOCTYPE geometria SYSTEM "Ejercicio2DTD.dtd">
+<geometria>
 <forma>
    <nombre>rombo</nombre>
    <características>
@@ -16,4 +16,4 @@
    </características>
    <numlados/>
 </forma>
-</geometría>
+</geometria>
