@@ -1,0 +1,11 @@
+<!ELEMENT ediciones (cabecera, tabla*)>
+<!ELEMENT cabecera (contenido, descripcion, fecha)>
+<!ATTLIST cabecera titulo CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT contenido (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT tabla (trimestre, lib_vendidos)*>
+<!ATTLIST tabla nombre CDATA #REQUIRED>
+<!ELEMENT trimestre (#PCDATA)>
+<!ELEMENT lib_vendidos (#PCDATA)>
