@@ -1,2 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE vuelos SYSTEM "Ejercicio6DTD.dtd">
+<vuelos>
+<vuelo codigo="V22" estado="R">
+<diario>Si</diario>
+<origen>New York</origen>
+<destino>Chicago</destino>
+<hora_salida>9:30</hora_salida>
+<hora_llegada>11:30</hora_llegada>
+</vuelo>
+</vuelos>
