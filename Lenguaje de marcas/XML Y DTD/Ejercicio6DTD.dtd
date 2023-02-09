@@ -1,7 +1,7 @@
 <!ELEMENT vuelos (vuelo)+>
 <!ELEMENT vuelo ( diario, origen, destino, hora_salida, hora_llegada)>
-<!ATTLIST vuelo codigo CDATA #REQUIRED>
-<!ATTLIST vuelo estado CDATA #REQUIRED>
+<!ATTLIST vuelo codigo ID #REQUIRED>
+<!ATTLIST vuelo estado  (C | EH | R) "EH">
 <!ELEMENT diario (#PCDATA)>
 <!ELEMENT origen (#PCDATA)>
 <!ELEMENT destino (#PCDATA)>
