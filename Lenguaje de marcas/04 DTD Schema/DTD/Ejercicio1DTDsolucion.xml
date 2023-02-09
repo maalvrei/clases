@@ -16,7 +16,6 @@
       </identificacion> 
 </producto>
 <producto>
-   
    <identificacion>
       <codigo>MAR321</codigo>
       <id>678984</id>
@@ -29,7 +28,7 @@
    <identificacion>
       <codigo>ATT098P</codigo>
       <id>61900</id>
-    </identificacion>
-    <nombre>Atornilladora</nombre> 
+      </identificacion>
+      <nombre>Atornilladora</nombre> 
 </producto>
 </productos>
