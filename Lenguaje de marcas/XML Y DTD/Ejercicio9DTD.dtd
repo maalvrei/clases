@@ -1,13 +1,14 @@
-<!ELEMENT persona (nombre, nacimiento, direccion, varon)+>
+<!ELEMENT personas (persona)*>
+<!-- Corredigo en clase -->
+<!ELEMENT persona (nombre, nacimiento, direccion, varon?)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT nacimiento (#PCDATA)>
 <!ATTLIST nacimiento dia CDATA #REQUIRED>
 <!ATTLIST nacimiento mes CDATA #REQUIRED>
 <!ATTLIST nacimiento anyo CDATA #REQUIRED>
-<!ELEMENT direccion (calle, poblacion, provincia, cpostal)+>
+<!ELEMENT direccion (calle, poblacion, provincia, cpostal)>
 <!ELEMENT calle (#PCDATA)>
 <!ELEMENT poblacion (#PCDATA)>
 <!ELEMENT provincia (#PCDATA)>
 <!ELEMENT cpostal (#PCDATA)>
-<!ELEMENT varon (#PCDATA)>
-
+<!ELEMENT varon EMPTY>

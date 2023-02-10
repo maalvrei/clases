@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE persona SYSTEM "Ejercicio9DTD.dtd">
+<!-- Corredigo en clase -->
+<!DOCTYPE personas SYSTEM "Ejercicio9DTD.dtd">
+<personas>
 <persona>
 <nombre>Juan Pardo</nombre>
 <nacimiento dia="10" mes="abril" anyo="1982"/>
@@ -9,5 +11,16 @@
 <provincia>Madrid</provincia>
 <cpostal>28005</cpostal>
 </direccion>
-<varon>Sí</varon>
+<varon/>
 </persona>
+<persona>
+<nombre>Juan Pardo</nombre>
+<nacimiento dia="10" mes="abril" anyo="1982"/>
+<direccion>
+<calle>Caoba, 1</calle>
+<poblacion>Madrid</poblacion>
+<provincia>Madrid</provincia>
+<cpostal>28005</cpostal>
+</direccion>
+</persona>
+</personas>

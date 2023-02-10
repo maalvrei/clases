@@ -1,4 +1,4 @@
-<!ELEMENT vuelos (vuelo)+>
+<!-- <!ELEMENT vuelos (vuelo)+>
 <!ELEMENT vuelo ( diario, origen, destino, hora_salida, hora_llegada)>
 <!ATTLIST vuelo codigo ID #REQUIRED>
 <!ATTLIST vuelo estado  (C | EH | R) "EH">
@@ -7,3 +7,18 @@
 <!ELEMENT destino (#PCDATA)>
 <!ELEMENT hora_salida (#PCDATA)>
 <!ELEMENT hora_llegada (#PCDATA)>
+-->
+
+<!ELEMENT panel (aeropuerto, vuelos, fecha)>
+<!ELEMENT aeropuerto (#PCDATA)>
+<!ELEMENT vuelos (vuelo+)>
+<!ELEMENT vuelo (diario?, origen, destino, hsalida, hllegada)>
+<!ATTLIST vuelo codigo ID #REQUIRED>
+<!ATTLIST vuelo estado ( C | E | R ) "E">
+<!ELEMENT diario EMPTY>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT hsalida (#PCDATA)>
+<!ELEMENT hllegada (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+
