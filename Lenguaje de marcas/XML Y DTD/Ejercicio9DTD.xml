@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!-- Corredigo en clase -->
-<!DOCTYPE personas SYSTEM "Ejercicio9DTD.dtd">
-<personas>
-<persona>
-<nombre>Juan Pardo</nombre>
-<nacimiento dia="10" mes="abril" anyo="1982"/>
-<direccion>
-<calle>Caoba, 1</calle>
-<poblacion>Madrid</poblacion>
-<provincia>Madrid</provincia>
-<cpostal>28005</cpostal>
-</direccion>
-<varon/>
-</persona>
-<persona>
-<nombre>Juan Pardo</nombre>
-<nacimiento dia="10" mes="abril" anyo="1982"/>
-<direccion>
-<calle>Caoba, 1</calle>
-<poblacion>Madrid</poblacion>
-<provincia>Madrid</provincia>
-<cpostal>28005</cpostal>
-</direccion>
-</persona>
-</personas>
+<!DOCTYPE listado SYSTEM "Ejercicio9DTD.dtd">
+<listado>
+  <persona sexo="H">
+    <nombre>Juan Pardo</nombre>
+    <nacimiento dia="10" mes="abril" anyo="1982"/>
+    <direccion provincia="p1">
+      <calle>Caoba, 1</calle>
+      <poblacion>Madrid</poblacion>
+      <cpostal>28005</cpostal>
+    </direccion>
+  </persona>
+  <persona sexo="M">
+    <nombre>María Pineda</nombre>
+    <nacimiento dia="10" mes="abril" anyo="1982"/>
+    <direccion provincia="p2">
+      <calle>Del Cherito</calle>
+      <poblacion>Madrid</poblacion>
+      <cpostal>28058</cpostal>
+    </direccion>
+  </persona>
+  <provincias>
+  <provincia idProv="p1">Sevilla</provincia>
+  <provincia idProv="p2">Malaga</provincia>
+  </provincias>
+</listado>

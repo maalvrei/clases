@@ -1,14 +1,16 @@
-<!ELEMENT personas (persona)*>
-<!-- Corredigo en clase -->
-<!ELEMENT persona (nombre, nacimiento, direccion, varon?)>
+<!ELEMENT listado (persona+, provincias)>
+<!ELEMENT persona (nombre, nacimiento, direccion)>
+<!ATTLIST persona sexo (H|M|N) "H">
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT nacimiento (#PCDATA)>
 <!ATTLIST nacimiento dia CDATA #REQUIRED>
 <!ATTLIST nacimiento mes CDATA #REQUIRED>
 <!ATTLIST nacimiento anyo CDATA #REQUIRED>
-<!ELEMENT direccion (calle, poblacion, provincia, cpostal)>
+<!ELEMENT direccion (calle, poblacion, cpostal)>
+<!ATTLIST direccion provincia IDREF #REQUIRED>
 <!ELEMENT calle (#PCDATA)>
 <!ELEMENT poblacion (#PCDATA)>
-<!ELEMENT provincia (#PCDATA)>
 <!ELEMENT cpostal (#PCDATA)>
-<!ELEMENT varon EMPTY>
+<!ELEMENT provincias (provincia+)>
+<!ELEMENT provincia (#PCDATA)>
+<!ATTLIST provincia idProv ID #REQUIRED>
