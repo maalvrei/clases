@@ -1,0 +1,14 @@
+<!ELEMENT agenda (mes+, dias, meses)>
+<!ELEMENT mes (dia*)>
+<!ATTLIST mes cMes IDREF #REQUIRED>
+<!ELEMENT dia (tarea*, nolaborable?)>
+<!ATTLIST dia numero CDATA #REQUIRED>
+<!ATTLIST dia cDia IDREF #REQUIRED>
+<!ELEMENT tarea (#PCDATA)>
+<!ELEMENT nolaborable EMPTY>
+<!ELEMENT dias (nombreDia)+>
+<!ELEMENT nombreDia (#PCDATA)>
+<!ATTLIST nombreDia codDia ID #REQUIRED>
+<!ELEMENT meses (nombreMes+)>
+<!ELEMENT nombreMes (#PCDATA)>
+<!ATTLIST nombreMes codMes ID #REQUIRED>

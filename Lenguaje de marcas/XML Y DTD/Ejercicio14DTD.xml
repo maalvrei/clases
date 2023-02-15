@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE agenda SYSTEM "Ejercicio14DTD.dtd">
+<agenda>
+  <mes cMes="m02">
+    <dia numero="01" cDia="d03">
+      <tarea>Mirar un bloque de anuncios en la televisión y hablar sobre los trucos publicitarios (1, 5 y 7)</tarea>
+    </dia>
+    <dia numero="02" cDia="d04">
+      <tarea>Buscar qué idiomas se hablan en los distintos países de Europa</tarea>
+    </dia>
+    <dia numero="03" cDia="d05">
+      <tarea>Clasificar a los animales más representativos de cada continente (3 y 5)</tarea>
+    </dia>
+    <dia numero="04" cDia="d06">
+      <tarea>Visitar alguna exposición o acto cultural (5)</tarea>
+      <nolaborable/>
+    </dia>
+    <dia numero="05" cDia="d07">
+      <tarea>Comentar en familia cuales son los rasgos del alcohol y cómo hacer un consumo responsable (1 y 5)</tarea>
+      <nolaborable/>
+    </dia>
+    <dia numero="06" cDia="d01">
+      <tarea>Investigar cómo se escribe familia en diferentes idiomas(2)</tarea>
+    </dia>
+    <dia numero="07" cDia="d02">
+      <tarea>Averiguar cómo buscar información en internet que sea segura (4)</tarea>
+    </dia>
+    <dia numero="08" cDia="d03">
+      <tarea>Comentar el modo que tiene cada uno de aprender algunas cosas (1 y 7)</tarea>
+    </dia>
+    <dia numero="09" cDia="d04">
+      <tarea>Revisar algunas facturas y calcular el gasto semanal (3)</tarea>
+    </dia>
+    <dia numero="10" cDia="d05">
+      <tarea>Informarse en la web del Ayuntamiento sobre alguna actividad al aire libre a la que asistir</tarea>
+    </dia>
+    <dia numero="11" cDia="d06">
+      <tarea>Realizar la actividad al aire libre (5)</tarea>
+      <nolaborable/>
+    </dia>
+    <dia numero="12" cDia="d07">
+      <tarea>Aprender cómo se escribe tu nombre en otros idiomas (2 y 7)</tarea>
+      <nolaborable/>
+    </dia>
+  </mes>
+  <dias>
+    <nombreDia codDia="d01"/>Lunes</nombreDia>
+    <nombreDia codDia="d02"/>Martes</nombreDia>
+    <nombreDia codDia="d03"/>Miercoles</nombreDia>
+    <nombreDia codDia="d04"/>Jueves</nombreDia>
+    <nombreDia codDia="d05"/>Viernes</nombreDia>
+    <nombreDia codDia="d06"/>Sabado</nombreDia>
+    <nombreDia codDia="d07"/>Domingo</nombreDia>
+  </dias>
+  <meses>
+    <nombreMes codMes="m01">Enero</nombreMes>
+    <nombreMes codMes="m02"/>Febrero</nombreMes>
+    <nombreMes codMes="m03"/>Marzo</nombreMes>
+    <nombreMes codMes="m04"/>Abril</nombreMes>
+    <nombreMes codMes="m05"/>Mayo</nombreMes>
+    <nombreMes codMes="m06"/>Junio</nombreMes>
+    <nombreMes codMes="m07"/>Julio</nombreMes>
+    <nombreMes codMes="m08"/>Agosto</nombreMes>
+    <nombreMes codMes="m09"/>Septiembre</nombreMes>
+    <nombreMes codMes="m10"/>Octubre</nombreMes>
+    <nombreMes codMes="m11"/>Noviembre</nombreMes>
+    <nombreMes codMes="m12"/>Diciembre</nombreMes>
+  </meses>
+</agenda>
