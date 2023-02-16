@@ -44,26 +44,26 @@
     </dia>
   </mes>
   <dias>
-    <nombreDia codDia="d01"/>Lunes</nombreDia>
-    <nombreDia codDia="d02"/>Martes</nombreDia>
-    <nombreDia codDia="d03"/>Miercoles</nombreDia>
-    <nombreDia codDia="d04"/>Jueves</nombreDia>
-    <nombreDia codDia="d05"/>Viernes</nombreDia>
-    <nombreDia codDia="d06"/>Sabado</nombreDia>
-    <nombreDia codDia="d07"/>Domingo</nombreDia>
+    <nombreDia codDia="d01">Lunes</nombreDia>
+    <nombreDia codDia="d02">Martes</nombreDia>
+    <nombreDia codDia="d03">Miercoles</nombreDia>
+    <nombreDia codDia="d04">Jueves</nombreDia>
+    <nombreDia codDia="d05">Viernes</nombreDia>
+    <nombreDia codDia="d06">Sabado</nombreDia>
+    <nombreDia codDia="d07">Domingo</nombreDia>
   </dias>
   <meses>
     <nombreMes codMes="m01">Enero</nombreMes>
-    <nombreMes codMes="m02"/>Febrero</nombreMes>
-    <nombreMes codMes="m03"/>Marzo</nombreMes>
-    <nombreMes codMes="m04"/>Abril</nombreMes>
-    <nombreMes codMes="m05"/>Mayo</nombreMes>
-    <nombreMes codMes="m06"/>Junio</nombreMes>
-    <nombreMes codMes="m07"/>Julio</nombreMes>
-    <nombreMes codMes="m08"/>Agosto</nombreMes>
-    <nombreMes codMes="m09"/>Septiembre</nombreMes>
-    <nombreMes codMes="m10"/>Octubre</nombreMes>
-    <nombreMes codMes="m11"/>Noviembre</nombreMes>
-    <nombreMes codMes="m12"/>Diciembre</nombreMes>
+    <nombreMes codMes="m02">Febrero</nombreMes>
+    <nombreMes codMes="m03">Marzo</nombreMes>
+    <nombreMes codMes="m04">Abril</nombreMes>
+    <nombreMes codMes="m05">Mayo</nombreMes>
+    <nombreMes codMes="m06">Junio</nombreMes>
+    <nombreMes codMes="m07">Julio</nombreMes>
+    <nombreMes codMes="m08">Agosto</nombreMes>
+    <nombreMes codMes="m09">Septiembre</nombreMes>
+    <nombreMes codMes="m10">Octubre</nombreMes>
+    <nombreMes codMes="m11">Noviembre</nombreMes>
+    <nombreMes codMes="m12">Diciembre</nombreMes>
   </meses>
 </agenda>
