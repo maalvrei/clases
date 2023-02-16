@@ -13,6 +13,12 @@ header {
     top: 50px;
     text-align: center;
     height: 110px;
+    justify-content: center;
+    color: rgb(88, 204, 219);;
+    background-color: white;
+    width: 40%;
+    border: white solid 1px;
+    border-radius: 15px;
 }
 
 body {
@@ -62,17 +68,6 @@ h2 {
 img {
     width: 50px;
     height: 50px;
-}
-
-header {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    color: rgb(88, 204, 219);;
-    background-color: white;
-    width: 40%;
-    border: white solid 1px;
-    border-radius: 15px;
 }
 
 #segundaCaja {
