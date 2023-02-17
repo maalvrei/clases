@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE viajes [
+<!ELEMENT viajes (francia, españa, italia)>
+   <!ELEMENT francia (ciudad+)>
+   <!ELEMENT españa (ciudad+)>
+   <!ELEMENT italia (ciudad+)>
+   <!ELEMENT ciudad (#PCDATA)>
+]>
+<viajes>   
+<francia><Lyon/></francia>
+<españa><Sevilla/><Córdoba/><Santander/></españa>
+<italia/>
+</viajes>

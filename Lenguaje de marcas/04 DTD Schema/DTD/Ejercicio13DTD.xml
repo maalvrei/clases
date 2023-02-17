@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lunas [
+   <!ELEMENT luna EMPTY>
+      <!ATTLIST luna numero ID #REQUIRED>
+      <!ATTLIST luna nivel #PCDATA #REQUIRED>
+      <!ATTLIST luna planeta #IMPLIED>
+]>
+<lunas>
+   <luna numero="N234" nivel="H1"/>
+   <luna numero="N479" nivel="H2" planeta="Saturno"/>
+   <luna numero="N566" nivel="H2" planeta="Saturno"/>
+   <luna numero="N607" nivel="H3" planeta="Urano"/>
+</lunas>

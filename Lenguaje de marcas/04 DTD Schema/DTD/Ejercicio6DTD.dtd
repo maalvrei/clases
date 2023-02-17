@@ -1,0 +1,13 @@
+<!ELEMENT aeropuerto (nombre, vuelos, fecha)>
+   <!ELEMENT nombre (#PCDATA)>
+   <!ELEMENT vuelos (vuelo+)>
+   <!ELEMENT vuelo (diario?, origen, destino, hora-salida, hora-llegada)>
+      <!ATTLIST vuelo código ID #REQUIRED>
+      <!ATTLIST vuelo estado (C | E | R) "E"> <!-- en este caso en el navegador si no aparece
+     el atributo "estado" no  pondrá estado="E" por defecto porque sólo funciona cuando se emplea con DTD interno-->
+   <!ELEMENT diario EMPTY>
+   <!ELEMENT origen (#PCDATA)>
+   <!ELEMENT destino (#PCDATA)>
+   <!ELEMENT hora-salida (#PCDATA)>
+   <!ELEMENT hora-llegada (#PCDATA)>
+   <!ELEMENT fecha (#PCDATA)>
