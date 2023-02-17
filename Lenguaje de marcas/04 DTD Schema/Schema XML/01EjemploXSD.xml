@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<curso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	 xsi:noNamespaceSchemaLocation="01EjemploXSD.xsd">
-Soy el único nodo texto del documento dentro del único elemento (que es raiz)
+<curso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="01EjemploXSD.xsd">
+  <denominacion>Historia de los videojuegos</denominacion>
+  <numAlumn>4</numAlumn>
+  <fechaIni>2022-02-12</fechaIni>
+  <online>true</online>
 </curso>
