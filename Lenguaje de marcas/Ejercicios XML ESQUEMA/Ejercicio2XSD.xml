@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<marcadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:noNamespaceSchemaLocation="Ejercicio2XSD.xsd">
+	 <pagina>
+	 <nombre>Migue</nombre>
+	 <descripcion>Guapo</descripcion>
+	 <url>Una página</url>
+	 </pagina>
+	 </marcadores>
