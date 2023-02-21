@@ -1,0 +1,15 @@
+<!ELEMENT calendario (mes)>
+  <!ELEMENT mes (semana+)>
+    <!ATTLIST mes nombre CDATA #REQUIRED>
+    <!ELEMENT semana (dia+)>
+    <!ATTLIST semana num ID #REQUIRED>
+    <!ELEMENT dia (nombre, descripcion, imagen?)>
+      <!ATTLIST dia num CDATA #REQUIRED>
+      <!ATTLIST dia tipo (laboral | festivo ) "laboral">
+      <!ELEMENT nombre (#PCDATA)>
+      <!ELEMENT descripcion (#PCDATA)>
+      <!ELEMENT imagen EMPTY>
+           <!ATTLIST imagen foto CDATA #REQUIRED>
+          <!ATTLIST imagen alt CDATA #REQUIRED>
+<!ENTITY foto SYSTEM "dibujoMundo.png" NDATA png>
+<!NOTATION png SYSTEM "image/png">

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE calendario SYSTEM "Ejercicio14Calendario.dtd">
+<calendario>
+<mes nombre="febrero">
+  <semana num="s6">
+    <dia num="1">
+      <nombre>Miercoles</nombre>
+      <descripcion>Algo habrá que hacer</descripcion>
+    </dia>
+    <dia num="2">
+      <nombre>Jueves</nombre>
+      <descripcion>Los juernes se sale</descripcion>
+    </dia>
+    <dia num="3">
+      <nombre>Viernes</nombre>
+      <descripcion>Un viernes umm</descripcion>
+    </dia>
+    <dia num="4">
+      <nombre>Sabado</nombre>
+      <descripcion>ahora salgo que estoy viendo Eurovisión</descripcion>
+    </dia>
+    <dia num="5" tipo="festivo">
+      <nombre>Domingo</nombre>
+      <descripcion>Viendo una serie de vampiros finlandeses</descripcion>
+    </dia>
+    </semana>
+    <semana num="s7">
+    <dia num="6">
+      <nombre>Lunes</nombre>
+      <descripcion>Aquí te quería ver...</descripcion>
+    </dia>
+    <dia num="7">
+      <nombre>Martes</nombre>
+      <descripcion>ni te cases ni te embarques</descripcion>
+     <imagen foto="dibujoMundo.png" alt="Representación simbólica del globo terráqueo"/>
+    </dia>
+    <dia num="8">
+      <nombre>Miercoles</nombre>
+      <descripcion>Mira, como la de la familia Adams</descripcion>
+    </dia>
+    <dia num="9">
+      <nombre>Jueves</nombre>
+      <descripcion>Llega el rey de Europa</descripcion>
+    </dia>
+    <dia num="10">
+      <nombre>Viernes</nombre>
+      <descripcion>La ITV. Qué alegría.</descripcion>
+    </dia>
+    <dia num="11">
+      <nombre>Sabado</nombre>
+      <descripcion>¿Otra vez?</descripcion>
+    </dia>
+    <dia num="12" tipo="festivo">
+      <nombre>Domingo</nombre>
+      <descripcion>Al sobre prontito.</descripcion>
+    </dia>
+</semana>
+</mes>
+</calendario>
