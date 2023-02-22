@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<fichas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio5XSD.xsd">
+  <ficha codigo="abc1d">
+    <nombre>Juan Pérez</nombre>
+    <edad>25</edad>
+  </ficha>
+  <ficha codigo="xyz7r">
+    <nombre>María García</nombre>
+    <edad>32</edad>
+  </ficha>
+  <ficha codigo="mno3f">
+    <nombre>Pablo Ruiz</nombre>
+    <edad>40</edad>
+  </ficha>
+</fichas>

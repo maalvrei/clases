@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <!-- Definición del elemento "precios" -->
+  <xs:element name="precios">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="precio" type="tipoPrecio" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <!-- Definición del tipo "tipoPrecio" con las restricciones de longitud y decimales -->
+  <xs:simpleType name="tipoPrecio">
+    <xs:restriction base="xs:decimal">
+      <xs:totalDigits value="3"/>
+      <xs:fractionDigits value="2"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>
