@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<catalogoLibro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="Ejercicio6XSD.xsd">
+    <libro categoria="ficcion" enstock="true">
+        <titulo>Los hombres que no amaban a las mujeres.</titulo>
+        <autor>Stieg Larsson</autor>
+        <fecha>
+            <mes>0</mes>
+            <año>2008</año>
+        </fecha>
+        <ISBN>9788423340446</ISBN>
+        <editor>Destino</editor>
+    </libro>
+</catalogoLibro>
