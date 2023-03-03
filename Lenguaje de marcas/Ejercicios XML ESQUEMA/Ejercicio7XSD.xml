@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Ejercicio7XSD.xsd">
+
+  <libro codigo="ISBN-123" titulo="La Guerra de los Mundos">
+    <autor>Herbert George Wells</autor>
+    <autor>Orson Welles</autor>
+    <edicion>Primera</edicion>
+    <isbn>ISBN-123</isbn>
+    <ubicacion sede="norte" />
+  </libro>
+  <libro codigo="ISBN-456" titulo="Viaje al centro de la Tierra">
+    <autor>Jules Verne</autor>
+    <edicion>Segunda</edicion>
+    <isbn>ISBN-456</isbn>
+    <donacion>Donado por John Smith</donacion>
+    <ubicacion sede="sur" />
+  </libro>
+</biblioteca>

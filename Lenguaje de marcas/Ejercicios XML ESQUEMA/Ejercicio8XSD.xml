@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio8XSD.xsd">
+  <libro codigo="ABC" titulo="El Quijote">
+    <autor>Cervantes Saavedra, Miguel de</autor>
+    <autor>Pérez Galdós, Benito</autor>
+    <editorial>Lengua de trapo</editorial>
+    <isbn>12-34-5678</isbn>
+    <ubicacion sede="norte"/>
+    <fechaPublicacion>2005-10-01</fechaPublicacion>
+    <caracteristicas>
+      <numpaginas>500</numpaginas>
+      <calidad>rustica</calidad>
+    </caracteristicas>
+  </libro>
+  <libro codigo="XYZ" titulo="La Regenta">
+    <autor>Alas, Leopoldo</autor>
+    <editorial>Libros del KO</editorial>
+    <isbn>98-76-5432</isbn>
+    <ubicacion sede="sur"/>
+    <fechaPublicacion>2010-05-15</fechaPublicacion>
+    <caracteristicas>
+      <numpaginas>300</numpaginas>
+      <calidad>bolsillo</calidad>
+    </caracteristicas>
+  </libro>
+</biblioteca>
