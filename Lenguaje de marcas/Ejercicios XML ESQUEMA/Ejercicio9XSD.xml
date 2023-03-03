@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ejercicio9 xmlns:xsi="http://www.w3.org/2001/XMLSSchema-instance"
+ xsi:noNamespaceSchemaLocation="Ejercicio9XSD.xsd">
+
+<matriculaParcial/>
+<matricula activado="parcial"/>
+<caso3 activado="total"/>
+ 
+ </ejercicio9>
