@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:noNamespaceSchemaLocation="Ejercicio08Schema.xsd">
+
+    <libro codigo="R34" titulo="Mar tenebroso">
+        <fecha>1997-11-23</fecha>
+        <autor>Ramón Allegue Martínez</autor>
+        <autor>Ramón Allegue Barreiro</autor>
+        <editorial>Libros del KO</editorial>
+        <isbn>84-60-5693</isbn>
+        <donacion/>
+        <ubicacion sede="norte"/>
+        <caracteristicas>
+          <numpaginas>420</numpaginas>
+          <calidad>Rústica</calidad>
+        </caracteristicas>
+    </libro>
+    <libro codigo="R4T" titulo="57 días en Piolín">
+       <fecha>2014-03-15</fecha>
+        <autor>Guillem Martínez</autor>
+        <editorial>Lengua de trapo</editorial>
+        <edicion>Contexto</edicion>
+        <isbn>97-84-1381</isbn>
+        <ubicacion sede="sur"/>
+        <caracteristicas>
+          <numpaginas>200</numpaginas>
+          <calidad>Bolsillo</calidad>
+        </caracteristicas>
+    </libro>
+</biblioteca>

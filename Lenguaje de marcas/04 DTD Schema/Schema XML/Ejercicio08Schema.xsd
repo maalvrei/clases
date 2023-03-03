@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="biblioteca">
+
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="libro" minOccurs="2" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="libro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="fecha" type="xs:date"/>
+        <xs:element name="autor" type="xs:string"  maxOccurs="3"/>
+        <xs:element name="editorial" type="tipoEditorial" />
+        <xs:element name="edicion" type="xs:string" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="isbn" type="tipoISBN"/>
+        <xs:element name="donacion" type="xs:string" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="ubicacion" type="tipoUbicacion"/>
+        <xs:element ref="caracteristicas"/>
+      </xs:sequence>
+      <xs:attribute name="codigo" type="tipoCodigo" use="required"/>
+      <xs:attribute name="titulo" type="xs:string" use="required"/>
+      
+    </xs:complexType>
+  </xs:element>
+
+<xs:simpleType name="tipoEditorial">
+  <xs:restriction base="xs:string">
+         <xs:enumeration value="Lengua de trapo"/>
+         <xs:enumeration value="Libros del KO"/>
+      </xs:restriction>
+</xs:simpleType>
+
+
+<xs:simpleType name="tipoISBN">
+  <xs:restriction base="xs:string">
+         <xs:pattern value="[0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]"/>
+      </xs:restriction>
+</xs:simpleType>
+
+    <xs:complexType name="tipoUbicacion">
+      <xs:attribute name="sede" use="required">
+      <xs:simpleType>
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="norte"/>
+         <xs:enumeration value="sur"/>
+      </xs:restriction>
+      </xs:simpleType>
+</xs:attribute>
+   </xs:complexType>
+
+<xs:simpleType name="tipoCodigo">
+  <xs:restriction base="xs:ID">
+         <xs:length value="3"/>
+      </xs:restriction>
+</xs:simpleType>
+
+<xs:element name="caracteristicas">
+  <xs:complexType>
+  <xs:sequence>
+    <xs:element name="numpaginas" type="tipoNumpaginas"/>
+    <xs:element name="calidad" type="tipoCalidad"/>
+  </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:simpleType name="tipoNumpaginas">
+  <xs:restriction base="xs:positiveInteger">
+         <xs:minInclusive value="160"/>
+         <xs:maxInclusive value="430"/>
+      </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="tipoCalidad">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="Rústica"/>
+         <xs:enumeration value="Bolsillo"/>
+      </xs:restriction>
+      </xs:simpleType>
+
+</xs:schema>
