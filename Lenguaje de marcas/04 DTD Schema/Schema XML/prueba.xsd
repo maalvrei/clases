@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="documento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="region1" type="xs:string"/>
+        <xs:element ref="region2"/>
+        <xs:element ref="region3"/>
+        <xs:element ref="region4"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="region2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ciudad" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="capital" type="xs:string" minOccurs="1"/>
+        <xs:element name="ciudad" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="region3">
+    <xs:complexType mixed="true">
+      <xs:attribute name="habitantes" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="region4">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="nombre">
+    <xs:complexType>
+      <xs:attribute name="toponimia" type="xs:string" use="required"/>
+      <xs:attribute name="habitantes" type="xs:integer" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
