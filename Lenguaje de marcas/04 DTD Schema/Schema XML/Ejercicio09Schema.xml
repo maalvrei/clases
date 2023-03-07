@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ejercicio9 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio09Schema.xsd">
+
+<!-- Los elementos hijos deben estar vacíos -->
+<matriculaParcial/>
+<matricula activado="parcial"/>
+
+ <!-- el valor del atributo puede ser cualquier cadena-->
+<caso3 activado="total"/> <!-- el valor del atributo puede ser "total" o "parcial" -->
+
+</ejercicio9>
