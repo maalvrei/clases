@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda [
+<!ELEMENT agenda (persona)+>
+<!ELEMENT persona (nombre, tlf+, favorito?)>
+<!ATTLIST persona idPer ID  #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre categoria (trabajo | familia | amigos) #IMPLIED>
+<!ELEMENT tlf (#PCDATA)>
+<!ELEMENT favorito (#PCDATA)>
+]>
+<agenda>
+<persona idPer="A34" >
+<nombre>Ricardo Sánchez Plana</nombre>
+<tlf>954890012</tlf>
+<tlf>634090978</tlf>
+</persona>
+<persona idPer="A23">
+<nombre categoria="trabajo">Carla Martín López</nombre>
+<tlf>677123098</tlf>
+<favorito/>
+</persona>
+
+</agenda>

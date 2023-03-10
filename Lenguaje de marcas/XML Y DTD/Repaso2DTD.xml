@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE receta SYSTEM "Repaso2DTD.dtd">
+<receta>
+<titulo>filetes</titulo>
+<ingrediente>zanahoria</ingrediente>
+<procedimiento>cocer</procedimiento>
+<tiempo>2 horas</tiempo>
+</receta>

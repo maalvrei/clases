@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<recetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Repaso2DTD.xsd">
+<receta>
+<titulo>filetes</titulo>
+<ingrediente>zanahoria</ingrediente>
+<procedimiento>cocer</procedimiento>
+<tiempo>2 horas</tiempo>
+</receta>
+<receta>
+<titulo>pollo</titulo>
+<ingrediente>zanahoria</ingrediente>
+<procedimiento>cocer</procedimiento>
+<tiempo>2 horas</tiempo>
+</receta>
+</recetas>
