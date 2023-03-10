@@ -8,6 +8,7 @@
 </receta>
 <receta>
 <titulo>pollo</titulo>
+<ingrediente>papa</ingrediente>
 <ingrediente>zanahoria</ingrediente>
 <procedimiento>cocer</procedimiento>
 <tiempo>2 horas</tiempo>

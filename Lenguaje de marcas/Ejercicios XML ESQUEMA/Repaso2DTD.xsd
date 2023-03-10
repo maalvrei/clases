@@ -6,28 +6,28 @@
         <xs:element name="receta" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="titulo">
+              <xs:element name="titulo" maxOccurs="unbounded">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:minLength value="1"/>
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="ingrediente">
+              <xs:element name="ingrediente" maxOccurs="unbounded">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:minLength value="1"/>
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="procedimiento">
+              <xs:element name="procedimiento" maxOccurs="unbounded">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:minLength value="1"/>
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="tiempo">
+              <xs:element name="tiempo" maxOccurs="unbounded">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:minLength value="1"/>
