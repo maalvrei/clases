@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="07ejemplo.xsl"?>
+<ventas>
+  <producto>
+    <denominacion>Iglepiggle</denominacion>
+    <pais>Alemania</pais>
+    <dato1>23</dato1>
+    <dato2>45</dato2>
+    <precio>100.00</precio>
+     <año>2009</año>
+  </producto>
+  <producto>
+    <denominacion>Rustica Cale</denominacion>
+    <pais>Francia</pais>
+    <dato1>39</dato1>
+    <dato2>66</dato2>
+    <precio>19.99</precio>
+    <año>2012</año>
+  </producto>
+</ventas>
