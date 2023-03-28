@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="productos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="producto" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="producto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="detalle" type="xs:string"/>
+      </xs:sequence>
+      <xs:attribute name="pid" type="xs:ID" use="required"/>
+      <xs:attribute name="precio" type="xs:positiveInteger" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,6 @@
+<!ELEMENT ventas (producto+)>
+<!ELEMENT producto (denominacion, pais, precio, año)>
+<!ELEMENT denominacion (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
