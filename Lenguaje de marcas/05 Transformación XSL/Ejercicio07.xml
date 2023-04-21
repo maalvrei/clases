@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Ejercicio07.xsl"?>
+<costes periodo="2018/19">
+<detalle>
+<denominacion>HF903</denominacion>
+<ciudad>Málaga</ciudad>
+<fecha>12/09/2019</fecha>
+<evaluacion>Positiva</evaluacion>
+<coste>30</coste>
+</detalle>
+<detalle>
+<denominacion>PF911</denominacion>
+<ciudad>Málaga</ciudad>
+<fecha>01/07/2018</fecha>
+<evaluacion>Positiva</evaluacion>
+<coste>18</coste>
+</detalle>
+<detalle>
+<denominacion>HR001</denominacion>
+<ciudad>Sevilla</ciudad>
+<fecha>18/04/2018</fecha>
+<evaluacion>Negativa</evaluacion>
+<coste>65</coste>
+</detalle>
+<detalle>
+<denominacion>HR002</denominacion>
+<ciudad>Córdoba</ciudad>
+<fecha>11/032018</fecha>
+<evaluacion>En estudio</evaluacion>
+<coste>50</coste>
+</detalle>
+</costes>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="08ejemplo.xsl"?>
+<paises>
+  <pais nombre="Portugal" >
+    <capital web="https://www.visitlisboa.com/es">Lisboa</capital>
+    <foto>lisboa.png</foto>
+  </pais>
+    <pais nombre="Italia">
+    <capital web="https://www.turismoroma.it/es">Roma</capital>
+    <foto>roma.png</foto>
+  </pais>
+</paises>

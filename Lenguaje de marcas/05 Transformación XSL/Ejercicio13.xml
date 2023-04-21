@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Ejercicio13.xsl"?>
+<empleados>
+  <empleado idEmpl="E3">
+    <nombre>Carlos</nombre>
+    <apellidos>Tena Sánchez</apellidos>
+    <coef1>22</coef1>
+    <coef2>12</coef2>
+    <numHijos>2</numHijos>
+     <antiguedad>2009</antiguedad>
+     <base>1980.56</base>
+  </empleado>
+  <empleado  idEmpl="E4">
+    <nombre>Ana</nombre>
+    <apellidos>Pedrosa Lora</apellidos>
+    <coef1>20</coef1>
+    <coef2>13</coef2>
+    <numHijos>1</numHijos>
+     <antiguedad>2011</antiguedad>
+     <base>2100.78</base>
+  </empleado>
+</empleados>
