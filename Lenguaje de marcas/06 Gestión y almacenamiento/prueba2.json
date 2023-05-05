@@ -1,0 +1,69 @@
+{
+    "tienda": {
+        "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "-xsi:noNamespaceSchemaLocation": "02aejemplo.xsd",
+        "clientes": {
+            "cliente": [
+                {
+                    "-idcliente": "C225",
+                    "nombre": "MANUEL FERNÁNDEZ HERNÁNDEZ",
+                    "ciudad": "Alicante"
+                },
+                {
+                    "-idcliente": "C123",
+                    "nombre": "ANA LAFUENTE BROTONS",
+                    "ciudad": "Alicante"
+                },
+                {
+                    "-idcliente": "C190",
+                    "nombre": "JUANA GÓMEZ GÓMEZ",
+                    "ciudad": "Alicante"
+                }
+            ]
+        },
+        "articulos": {
+            "articulo": [
+                {
+                    "-codigo": "A001",
+                    "modelo": "EOS 550d",
+                    "marca": "CANON",
+                    "pvp": "379.89"
+                },
+                {
+                    "-codigo": "A002",
+                    "modelo": "Slim 1.16",
+                    "marca": "PARROT",
+                    "pvp": "78.99"
+                },
+                {
+                    "-codigo": "A005",
+                    "modelo": "PX730",
+                    "marca": "EPSON",
+                    "pvp": "250.00"
+                }
+            ]
+        },
+        "compras": {
+            "compra": [
+                {
+                    "-idcliente": "C225",
+                    "-codigo": "A001",
+                    "unidades": "1",
+                    "fecha": "2019-09-03T14:00:00"
+                },
+                {
+                    "-idcliente": "C190",
+                    "-codigo": "A005",
+                    "unidades": "2",
+                    "fecha": "2019-06-09T12:35:41"
+                },
+                {
+                    "-idcliente": "C225",
+                    "-codigo": "A005",
+                    "unidades": "1",
+                    "fecha": "2019-07-13T11:30:40"
+                }
+            ]
+        }
+    }
+}

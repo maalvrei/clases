@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<clase>
+  <alumno modalidad="presencial">
+    <nombre>Joaquín</nombre>
+    <apellidos>Pérez Pozuelo</apellidos>
+    <edad>22</edad>
+  </alumno>
+  <alumno modalidad="online">
+    <nombre>Ana</nombre>
+    <apellidos>López Rota</apellidos>
+    <edad>26</edad>
+  </alumno>
+  <alumno modalidad="online">
+    <nombre>Susana</nombre>
+    <apellidos>Leire Lora</apellidos>
+    <edad>31</edad>
+  </alumno>
+</clase>

@@ -1,0 +1,24 @@
+{
+    "clase": {
+        "alumno": [
+            {
+                "-modalidad": "presencial",
+                "nombre": "Joaquín",
+                "apellidos": "Pérez Pozuelo",
+                "edad": "22"
+            },
+            {
+                "-modalidad": "online",
+                "nombre": "Ana",
+                "apellidos": "López Rota",
+                "edad": "26"
+            },
+            {
+                "-modalidad": "online",
+                "nombre": "Susana",
+                "apellidos": "Leire Lora",
+                "edad": "31"
+            }
+        ]
+    }
+}
