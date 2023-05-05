@@ -7,9 +7,9 @@
   </xsl:template>
 
 
- <!-- 
+
     <xsl:template match="ciclo">
         / <xsl:value-of select="nombre"/> \ 
   </xsl:template>
-  -->
+
 </xsl:stylesheet>

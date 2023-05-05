@@ -12,7 +12,7 @@
   </xsl:template>
 
 
-  <!--
+
   <xsl:template match="ciclos">
     <html>
     <body>
@@ -24,7 +24,7 @@
   <xsl:template match="ciclo">
      <p><xsl:value-of select="nombre"/></p>
   </xsl:template>
-  -->
+ 
 
   
 </xsl:stylesheet>
