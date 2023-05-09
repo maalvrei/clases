@@ -33,4 +33,20 @@
       </autor>
     </Autores>
   </libro>
+   <libro>
+    <Cod_Libro>3</Cod_Libro>
+    <Titulo>Rinconete y Cortadillo</Titulo>
+    <Editorial>Juan de la Cuesta</Editorial>
+    <Edicion>3</Edicion>
+    <ISBN>9788466745840</ISBN>
+   <NumPaginas>176</NumPaginas> 
+    <Autores>
+      <autor>
+        <Cod_Autor>1</Cod_Autor>
+        <Nombre>Miguel</Nombre>
+        <Apellidos>de Cervantes Saavedra</Apellidos>
+        <FechaNacimiento>29/09/1547</FechaNacimiento>
+      </autor>
+    </Autores>
+  </libro>
 </Libros>

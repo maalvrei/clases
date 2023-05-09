@@ -1,0 +1,34 @@
+{
+"pelicula": {
+"-titulo":"Viaje al corazón del hombre",
+"-director":"Romero Smith",
+"-año":"2019",
+ "localizacion": [
+ {
+  "Continente": "África",
+  "País": "Angola",
+  "Capital": "Luanda"
+ },
+ {
+  "Continente": "América del Norte",
+  "País": "Estados Unidos",
+  "Capital": "Washington DC"
+ },
+ {
+  "Continente": "América Central",
+  "País": "México",
+  "Capital": "Ciudad de México"
+ },
+  {
+  "Continente": "América del Sur",
+  "País": "Brasil",
+  "Capital": "Brasília"
+ },
+ {
+  "Continente": "Europa",
+  "País": "España",
+  "Capital": "Madrid"
+ }
+]
+}
+} 
