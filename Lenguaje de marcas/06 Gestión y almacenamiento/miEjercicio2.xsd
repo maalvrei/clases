@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="pelicula">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titulo" type="xs:string" />
+              <xs:element name="director" type="xs:string" />
+              <xs:element name="año" type="xs:integer" />
+              <xs:element name="localizacion" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Continente">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="América del Sur" />
+                          <xs:enumeration value="América del Norte" />
+                          <xs:enumeration value="América Central" />
+                          <xs:enumeration value="Europa" />
+                          <xs:enumeration value="África" />
+                          <xs:enumeration value="Asia" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="País" type="xs:string" />
+                    <xs:element name="Capital">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:maxLength value="20" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="ID" type="xs:ID" use="required" />
+                  <xs:attribute name="idResponsable" type="xs:IDREF" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="responsable" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="id" type="xs:ID" use="required" />
+            <xs:attribute name="nombre" type="xs:string" use="required" />
+            <xs:attribute name="apellidos" type="xs:string" use="required" />
+            <xs:attribute name="telefono" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

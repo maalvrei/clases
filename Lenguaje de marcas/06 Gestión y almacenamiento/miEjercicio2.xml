@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Tarde/Desktop/REPOSITORIOS/GITHUB%20MIGUE/clases/Lenguaje%20de%20marcas/06%20Gesti%C3%B3n%20y%20almacenamiento/miEjercicio2.xsd">
+  <pelicula>
+    <titulo>Viaje al corazón del hombre</titulo>
+    <director>Romero Smith</director>
+    <año>2019</año>
+    <localizacion ID="loc1" idResponsable="resp1">
+      <Continente>África</Continente>
+      <País>Angola</País>
+      <Capital>Luanda</Capital>
+    </localizacion>
+    <localizacion ID="loc2" idResponsable="resp2">
+      <Continente>América del Norte</Continente>
+      <País>Estados Unidos</País>
+      <Capital>Washington DC</Capital>
+    </localizacion>
+    <localizacion ID="loc3" idResponsable="resp3">
+      <Continente>América Central</Continente>
+      <País>México</País>
+      <Capital>Ciudad de México</Capital>
+    </localizacion>
+    <localizacion ID="loc4" idResponsable="resp4">
+      <Continente>América del Sur</Continente>
+      <País>Brasil</País>
+      <Capital>Brasília</Capital>
+    </localizacion>
+    <localizacion ID="loc5" idResponsable="resp5">
+      <Continente>Europa</Continente>
+      <País>España</País>
+      <Capital>Madrid</Capital>
+    </localizacion>
+  </pelicula>
+  <responsable id="resp1" nombre="Juan" apellidos="Pérez" telefono="+244123456789" />
+  <responsable id="resp2" nombre="John" apellidos="Doe" telefono="+12025551234" />
+  <responsable id="resp3" nombre="José" apellidos="García" telefono="+525512345678" />
+  <responsable id="resp4" nombre="João" apellidos="Silva" telefono="+5561987654321" />
+  <responsable id="resp5" nombre="Carlos" apellidos="González" telefono="+34678901234" />
+</root>
