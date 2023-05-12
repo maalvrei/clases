@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Ejercicio2.xsl"?>
+<pelicula xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	titulo="Viaje al corazón del hombre" director="Romero Smith" año="2019">
+	 <localizaciones>
+  <localizacion idLocal="L1" codResp="R1">
+    <Continente>África</Continente>
+    <País>Angola</País>
+    <Capital>Luanda</Capital>
+  </localizacion>
+  <localizacion idLocal="L2" codResp="R2">
+    <Continente>América del Norte</Continente>
+    <País>Estados Unidos</País>
+    <Capital>Washington DC</Capital>
+    </localizacion>
+  <localizacion idLocal="L3" codResp="R2">
+    <Continente>América Central</Continente>
+    <País>México</País>
+    <Capital>Ciudad de México</Capital>
+  </localizacion>
+  <localizacion idLocal="L4" codResp="R3">
+    <Continente>América del Sur</Continente>
+    <País>Brasil</País>
+    <Capital>Brasília</Capital>
+  </localizacion>
+  <localizacion idLocal="L5"  codResp="R1">
+    <Continente>Europa</Continente>
+    <País>España</País>
+    <Capital>Madrid</Capital>
+  </localizacion>
+  </localizaciones>
+  <responsables>
+  <responsable idResp="R1">
+  <nombre>Peter</nombre>
+  <apellidos>Storengs</apellidos>
+  <telefono>780000341</telefono>
+  </responsable>
+    <responsable idResp="R2">
+  <nombre>Ana</nombre>
+  <apellidos>Delgado Martínez</apellidos>
+  <telefono>678002966</telefono>
+  </responsable>
+    <responsable idResp="R3">
+  <nombre>Lucas</nombre>
+  <apellidos>Powermind</apellidos>
+  <telefono>765122132</telefono>
+  </responsable>
+  </responsables>
+  </pelicula>

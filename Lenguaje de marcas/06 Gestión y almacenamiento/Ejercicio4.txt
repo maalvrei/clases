@@ -1,0 +1,39 @@
+1.-
+Aplicaciones web
+Gestión de bases de datos
+Lenguajes de marcas y sistemas de gestión de información
+Implantación de aplicaciones web
+2.-
+Gestión de bases de datos
+Lenguajes de marcas y sistemas de gestión de información
+Implantación de aplicaciones web
+2.- Otra versión
+Gestión de bases de datos
+Lenguajes de marcas y sistemas de gestión de información
+Implantación de aplicaciones web
+3.-
+Aplicaciones web
+Implantación de aplicaciones web
+3.- Otra versión
+Aplicaciones web
+Implantación de aplicaciones web
+4.-
+Aplicaciones web
+Lenguajes de marcas y sistemas de gestión de información
+5.-
+Gestión de bases de datos
+Lenguajes de marcas y sistemas de gestión de información
+6.-
+4
+5
+5
+6.- Otra versión
+4
+5
+5
+7.- Empleo de count
+Cuenta el número de curso que superan las 3 horas semanales
+3
+8.- Empleo de sum
+Suma las horas de los cursos que superan las 3 horas semanales
+14

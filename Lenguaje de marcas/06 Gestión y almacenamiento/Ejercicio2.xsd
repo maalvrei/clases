@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="pelicula">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="localizaciones"/>
+        <xs:element ref="responsables"/>
+      </xs:sequence>
+      <xs:attribute name="año" type="xs:string" use="required"/>
+      <xs:attribute name="director" type="xs:string" use="required"/>
+      <xs:attribute name="titulo" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="localizaciones">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="localizacion" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="localizacion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Continente" type="tipoContinente"/>
+        <xs:element name="País" type="xs:string"/>
+        <xs:element name="Capital" type="tipoCapital"/>
+      </xs:sequence>
+      <xs:attribute name="codResp" type="xs:IDREF" use="required"/>
+      <xs:attribute name="idLocal" type="xs:ID" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="responsables">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="responsable" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="responsable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="apellidos" type="xs:string"/>
+        <xs:element name="telefono" type="xs:string"/>
+      </xs:sequence>
+      <xs:attribute name="idResp" type="xs:ID" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+<xs:simpleType name="tipoContinente">
+<xs:restriction base="xs:string">
+<xs:enumeration value="América del Sur"/>
+<xs:enumeration value="América del Norte"/>
+<xs:enumeration value="América Central"/>
+<xs:enumeration value="Europa"/>
+<xs:enumeration value="África"/>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="tipoCapital">
+  <xs:restriction base="xs:string">
+    <xs:maxLength value="20"/>
+  </xs:restriction>
+</xs:simpleType>
+
+</xs:schema>

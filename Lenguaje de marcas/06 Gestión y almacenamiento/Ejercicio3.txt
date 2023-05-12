@@ -1,0 +1,35 @@
+1.-
+<nombre>Centro Internacional</nombre>
+2.-
+http://www.centrointernacionalCurie.org
+3.-
+Administración de Sistemas Informáticos en Red
+Desarrollo de Aplicaciones Web
+Sistemas Microinformáticos y Redes
+4.-
+id="ASIR"
+id="DAW"
+id="SMR"
+5.-
+año="2009"
+año="2010"
+año="2008"
+----
+año="2009"
+año="2010"
+año="2008"
+6.-
+<ciclo id="SMR">
+  <nombre>Sistemas Microinformáticos y Redes</nombre>
+  <grado>Medio</grado>
+  <decretoTitulo año="2008"/>
+</ciclo>
+7.-
+<nombre>Administración de Sistemas Informáticos en Red</nombre>
+<nombre>Desarrollo de Aplicaciones Web</nombre>
+8.-
+Administración de Sistemas Informáticos en Red
+Sistemas Microinformáticos y Redes
+9.-
+Desarrollo de Aplicaciones Web
+Sistemas Microinformáticos y Redes
