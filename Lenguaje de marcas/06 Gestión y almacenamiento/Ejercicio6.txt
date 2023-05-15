@@ -1,0 +1,42 @@
+1.-
+Tango
+Cha-cha-cha
+Rock
+Merengue
+Salsa
+Pasodoble
+2.-
+<nombre>Tango</nombre>
+<precio cuota="mensual" moneda="euro">27</precio>
+<nombre>Cha-cha-cha</nombre>
+<precio cuota="trimestral" moneda="euro">80</precio>
+<nombre>Rock</nombre>
+<precio cuota="mensual" moneda="euro">30</precio>
+<nombre>Merengue</nombre>
+<precio cuota="trimestral" moneda="dolares">75</precio>
+<nombre>Salsa</nombre>
+<precio cuota="mensual" moneda="dolares">32</precio>
+<nombre>Pasodoble</nombre>
+<precio cuota="anual" moneda="euro">3200</precio>
+3.-
+Cha-cha-cha
+80
+Merengue
+75
+Pasodoble
+3200
+4.-
+Cha-cha-cha
+Merengue
+Pasodoble
+Rock
+Salsa
+Tango
+5.-
+Tango
+Cha-cha-cha
+Salsa
+Pasodoble
+6.-
+Merengue
+Salsa
