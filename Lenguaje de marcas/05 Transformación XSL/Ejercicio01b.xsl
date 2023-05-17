@@ -11,8 +11,6 @@
 </html>
   </xsl:template>
 
-
-
   <xsl:template match="ciclos">
     <html>
     <body>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="Ejercicio01e.xsl"?>
+<?xml-stylesheet type="text/xsl" href="miejercicio1d.xsl"?>
 <centro nombre="Centro Internacional" web="https://www.centrointernacional.org/" >
   <ciclos>
     <ciclo id="ASIR">

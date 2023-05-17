@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<centro> 
+<asignatura CodA="A01"> 
+<nombre>AGI</nombre> 
+<curso>2</curso> 
+<practica>Entidad-Relación</practica> 
+<practica>SQL</practica> 
+<practica>XML</practica> 
+</asignatura> 
+<asignatura CodA="A02"> 
+<nombre>ABD</nombre> 
+<curso>3</curso> 
+<practica>práctica 1</practica> 
+<practica>práctica 2</practica> 
+</asignatura> 
+<profesor CodP="P01"> 
+<nombre>Pepa</nombre> 
+<dedicacion>completa</dedicacion> 
+</profesor> 
+<profesor CodP="P02"> 
+<nombre>Pepe</nombre> 
+<dedicacion>parcial</dedicacion> 
+</profesor> 
+<imparte CodA="A01" CodP="P01"/> 
+<imparte CodA="A01" CodP="P02"/> 
+<imparte CodA="A02" CodP="P01"/> 
+</centro> 
