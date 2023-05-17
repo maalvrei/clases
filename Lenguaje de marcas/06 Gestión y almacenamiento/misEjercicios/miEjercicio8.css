@@ -1,0 +1,7 @@
+div {
+    border: 2px red solid;
+    width: 25%;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 40px 0px;
+    padding-left: 1%;
+}
