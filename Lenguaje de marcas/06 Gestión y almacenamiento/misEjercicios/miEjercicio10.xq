@@ -19,6 +19,14 @@ for $asig in //asignatura
 let $numAsig := count($asig/practica)
 where $asig/nombre="AGI" 
 return $numAsig,
-"Obtener el nombre de los profesores que imparten la asignatura de nombre AGI, de manera que la salida obtenida sea de la forma: <prof>Pepe</prof> ",
+"Obtener el nombre de los profesores que imparten la asignatura de nombre AGI, de manera que la salida",
+for $prof in //profesor, $asig in //asignatura, $imp in //imparte
+where $asig/[nombre="AGI"]/CodA = $imp/CodA and $prof/CodP = $imp/CodP
+return $prof/nombre,
 
-"Obtener el código y el nombre de las asignaturas que tienen más de una práctica."
+"Obtener el código y el nombre de las asignaturas que tienen más de una práctica.",
+for $asig in //asignatura, $imp in //imparte
+let $num := count($asig/practica)
+let $cod := $asig/CodA = $imp/CodA
+where $num >1
+return ($asig/nombre,$cod)
