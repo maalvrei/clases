@@ -1,0 +1,14 @@
+#negrita {
+  font-weight: bold;
+}
+
+ul li::first-letter {
+  font-size: 2em;
+  color: #FF32A6;
+}
+
+ul {
+  color: red;
+}
+
+

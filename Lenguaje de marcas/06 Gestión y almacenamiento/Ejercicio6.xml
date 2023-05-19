@@ -11,7 +11,7 @@
     </baile>
  
     <baile id="B2">
-        <nombre>Cha-cha-cha </nombre>
+        <nombre>Cha-cha-cha</nombre>
         <precio cuota="trimestral" moneda="euro">80</precio>
         <plazas>18</plazas>
         <comienzo>1/07/2020</comienzo>

@@ -5,8 +5,8 @@ for $a in //nombre|//precio
 return $a,
 "3.-",
 for $a in //baile
-where $a/precio > 40
-return $a/nombre|$a/precio,
+where ($a/precio)>40
+return ($a/nombre/text(), $a/precio/text()),
 "4.-",
 for $a in //nombre/text()
 order by $a
