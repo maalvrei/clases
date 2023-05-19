@@ -17,11 +17,19 @@ for $libro in //libro
 let $año := $libro/año
 return <publicacion>{$año}</publicacion>,
 "5.- Mostrar los titulos de los libros ordenados primero por categoría y luego por título en una sola consulta. Pista: order by criterio1, criterio2 ",
-
+for $l in //libro
+order by $l/@categoria, $l/titulo
+return $l/titulo/data(),
+" ",
 "6.- Mostrar cuántos libros hay, y etiquetarlo con TOTAL",
-
+let $tot := count(//libro)
+return <total>{$tot}</total>,
+" ",
 "7.- Mostrar el precio mínimo y máximo de los libros",
-
+let $min:= min(//precio)
+let $max:= max(//precio)
+return ($min,$max),
+" ",
 "8.- Mostrar el título del libro, su precio y su precio con el IVA incluido, cada uno con su propia etiqueta. Ordénalos por precio con IVA",
 
 "9.-Mostrar la suma total de los precios de los libros con la etiqueta total",

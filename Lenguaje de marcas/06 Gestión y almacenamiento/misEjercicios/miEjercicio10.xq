@@ -16,9 +16,8 @@ where $numAsig >1
 return $asig/nombre/data(),
 "Obtener las prácticas que tiene la asignatura de nombre AGI ",
 for $asig in //asignatura
-let $numAsig := count($asig/practica)
-where $asig/nombre="AGI" 
-return $numAsig,
+where $asig/nombre = "AGI"
+return $asig/practica/data(),
 "Obtener el nombre de los profesores que imparten la asignatura de nombre AGI, de manera que la salida",
 for $prof in //profesor, $asig in //asignatura, $imp in //imparte
 where $asig/[nombre="AGI"]/CodA = $imp/CodA and $prof/CodP = $imp/CodP
