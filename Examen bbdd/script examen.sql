@@ -72,13 +72,29 @@ select * from v_pedidos;
 select sum(total) from v_pedidos join cliente on id_cliente = cliente.id where nombre like 'Aarón' and apellido1 like 'Rivero';
 -- efectivamente, coincide
 
--- 2) 
+-- 2) crea una vista v_cuentaAnio, en la misma consulta cuenta el numero de pedidos por año, media de pedidos por año y el total de ingresos por año
+create or replace view v_cuentaAnio as select * from pedido;
+select count(id) as numPedidos, sum(total) as totalVentas, year(fecha) as año from v_cuentaAnio group by año;
 
+-- 3) crea una vista v_totalAnio utilizando la vista anterior, muestra el numero total de pedidos, el dinero total ingresado por pedidos, y la media total de ingresos.
+create or replace view v_totalAnio as select * from v_cuentaAnio;
+select count(id) as numPedidos, sum(total) as totalIngresos, round(avg(total),2) as mediaIngresos from v_totalAnio;
 
+-- EJERCICIO 3. SUBCONSULTAS
+-- 1) devuelve los datos del cliente y del pedido del cliente que realizó el pedido mas caro en 2019
+select
+cliente.id as id_cliente, nombre, apellido1, apellido2, ciudad, correo, pedido.id as id_pedido, total, fecha as fecha_pedido
+from cliente join pedido on cliente.id = pedido.id_cliente
+where pedido.total = (select max(total) from pedido where year(fecha) = '2019');
 
+-- 2) devuelve un listado de los datos de los comerciales que no han realizado ningun pedido
 
+select nombre from comercial where id not in ( select id_comercial from pedido);
 
+-- 3) devuelve un listado con los datos de los clientes y los pedidos de todos los los clientes que han realizado un pedido en el año 2017 con un valor mayor o igual al valor medio de los pedidos realizados
+-- ese año
 
+select * from cliente join pedido on cliente.id = pedido.id_cliente where year(pedido.fecha) = 2017 and pedido.total >= (select avg(total) from pedido where year(fecha) = 2017);
 
 
 
