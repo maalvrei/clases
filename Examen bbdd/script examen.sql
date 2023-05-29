@@ -1,3 +1,4 @@
+-- EJERCICIO 1
 -- 1) añadir el campo correo entre ciudad y categoria a la tabla cliente, con 100 caracteres
 -- haciendo describe vemos que despues de ciudad va categoria
 describe cliente;
@@ -56,9 +57,22 @@ create or replace view vistaClientesTodos as select * from cliente union all sel
 select * from vistaClientesTodos;
 -- en este caso, vistaClientesTodos si que ha añadido tambien los registros repetidos y tiene en total 14 registros, los 10 originales mas los 4 de la tabla cliente2
 
--- 6)
+-- EJERCICIO 2
+-- 1) crea una vista v_pedidos con la siguiente consulta: ¿cuanto se ha ingresado de los pedidos del cliente aaron rivero? muestra todos los datos necesarios
+-- vamos a ver primero cuantos pedidos ha hecho el cliente aaron rivero
+select count(pedido.id) from pedido join cliente on id_cliente = cliente.id where nombre like 'Aarón' and apellido1 like 'Rivero';
+-- esa consulta devuelve 3, es decir, aaron rivero a hecho 3 pedidos. ahora debemos ver cuanto ha gastado aaron en todos sus pedidos
+select sum(total) from pedido join cliente on id_cliente = cliente.id where nombre like 'Aarón' and apellido1 like 'Rivero';
+-- nos devuelve 3030.73, es lo que ha gastado aaron
+-- creamos la vista con los pedidos
+create or replace view v_pedidos as select * from pedido;
+-- comprobamos que tiene los datos correctamente
+select * from v_pedidos;
+-- vamos a ver cuanto ha gastado aaron y si coincide con lo que hemos comprobado anteriormente
+select sum(total) from v_pedidos join cliente on id_cliente = cliente.id where nombre like 'Aarón' and apellido1 like 'Rivero';
+-- efectivamente, coincide
 
-
+-- 2) 
 
 
 
