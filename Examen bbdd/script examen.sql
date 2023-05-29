@@ -97,8 +97,39 @@ select nombre from comercial where id not in ( select id_comercial from pedido);
 select * from cliente join pedido on cliente.id = pedido.id_cliente where year(pedido.fecha) = 2017 and pedido.total >= (select avg(total) from pedido where year(fecha) = 2017);
 
 
+-- EJERCICIO 4
+-- 1) crea un procedimiento pedidosPorFechas que reciba una fecha y muestre por pantalla los pedidos realizados en esa fecha, si no hay ningun pedido, mostrara 'no se han registrado pedidos en esa fecha'
+
+drop procedure if exists pedidosPorFechas;
+
+DELIMITER //
+
+create procedure pedidosPorFechas(in fecha_pedido date)
+begin
+    if fecha_pedido = any(select fecha from pedido) then
+		select * from pedido where fecha = fecha_pedido;
+    else
+        select 'No se han registrado pedidos en esa fecha';
+    end if;
+    
+end //
+
+DELIMITER ;
+
+call pedidosPorFechas('2017-10-04');
+
+-- 2) crea un procedimiento llamado cobroComerciales que reciba el nombre y apellido1 de un comercial y devuelva el valor total de las comisiones recibidas de todos sus pedidos.
+-- si el comercial no ha realizado pedidos, el procedimiento devolverá 0
+
+delimiter //
+
+create procedure cobrocomerciales(in nombre_comercial varchar(), in apellido1_comercial varchar(), out total_comisiones decimal(10, 2))
+begin
 
 
+    
+end //
 
+delimiter ;
 
-
+call cobrocomerciales('Daniel', 'Sáez');
