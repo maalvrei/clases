@@ -74,11 +74,11 @@ select sum(total) from v_pedidos join cliente on id_cliente = cliente.id where n
 
 -- 2) crea una vista v_cuentaAnio, en la misma consulta cuenta el numero de pedidos por año, media de pedidos por año y el total de ingresos por año
 create or replace view v_cuentaAnio as select * from pedido;
-select count(id) as numPedidos, sum(total) as totalVentas, year(fecha) as año from v_cuentaAnio group by año;
+select count(id) as numPedidos, sum(total) as totalVentas,avg(total) as mediaDinero, year(fecha) as año from v_cuentaAnio group by año;
 
 -- 3) crea una vista v_totalAnio utilizando la vista anterior, muestra el numero total de pedidos, el dinero total ingresado por pedidos, y la media total de ingresos.
 create or replace view v_totalAnio as select * from v_cuentaAnio;
-select count(id) as numPedidos, sum(total) as totalIngresos, round(avg(total),2) as mediaIngresos from v_totalAnio;
+select count(id) as numPedidosTodosAños, round(sum(total),2) as totalIngresosTodosAños, round(avg(total),2) as mediaIngresosTodosAños from v_totalAnio;
 
 -- EJERCICIO 3. SUBCONSULTAS
 -- 1) devuelve los datos del cliente y del pedido del cliente que realizó el pedido mas caro en 2019
@@ -120,16 +120,21 @@ call pedidosPorFechas('2017-10-04');
 
 -- 2) crea un procedimiento llamado cobroComerciales que reciba el nombre y apellido1 de un comercial y devuelva el valor total de las comisiones recibidas de todos sus pedidos.
 -- si el comercial no ha realizado pedidos, el procedimiento devolverá 0
-
+drop procedure if exists cobrocomerciales;
 delimiter //
 
-create procedure cobrocomerciales(in nombre_comercial varchar(), in apellido1_comercial varchar(), out total_comisiones decimal(10, 2))
+create procedure cobrocomerciales(in nombre_comercial varchar(100), in apellido1_comercial varchar(100), out total_comisiones float)
 begin
-
-
-    
+	declare idComercial int;
+    select id from comercial where nombre like nombre_comercial and apellido1 like apellido1_comercial into idComercial;
+	if idComercial = any(select pedido.id_comercial from pedido) then
+		select sum(comision*total) from comercial join pedido on comercial.id = pedido.id_comercial where comercial.id = idComercial into total_comisiones;
+	else
+		select 0 into total_comisiones;
+	end if;
 end //
 
 delimiter ;
 
-call cobrocomerciales('Daniel', 'Sáez');
+call cobrocomerciales('Marta', 'Herrera', @total_comisiones);
+select @total_comisiones;

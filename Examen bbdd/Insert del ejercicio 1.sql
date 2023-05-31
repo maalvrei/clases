@@ -1,0 +1,13 @@
+INSERT INTO `colegio`.`asignaturas` (`Codigo`, `Nombre`, `Creditos`, `Departamento`) VALUES ('7', 'Metodología de la Programación II', '18', 'Programación de Sistemas');
+INSERT INTO `colegio`.`asignaturas` (`Codigo`, `Nombre`, `Creditos`, `Departamento`) VALUES ('8', 'Programación con Java', '19', 'Programación de Sistemas');
+INSERT INTO `colegio`.`asignaturas` (`Codigo`, `Nombre`, `Creditos`, `Departamento`) VALUES ('9', 'Ingeniería del Software I', '15', 'Base de Datos');
+INSERT INTO `colegio`.`asignaturas` (`Codigo`, `Nombre`, `Creditos`, `Departamento`) VALUES ('10', 'Ingeniería del Software II', '14', 'Base de Datos');
+INSERT INTO `colegio`.`asignaturas` (`Codigo`, `Nombre`, `Creditos`, `Departamento`) VALUES ('11', 'Programación orientada a objetos', '10', 'Programación de Sistemas');
+INSERT INTO `colegio`.`asignaturas` (`Codigo`, `Nombre`, `Creditos`, `Departamento`) VALUES ('12', 'Oracle 12c', '10', 'Base de Datos');
+
+INSERT INTO `colegio`.`alumnos` (`Codigo_alumno`, `DNI`, `Nombre`, `Apellidos`, `Direccion`, `Localidad`, `Provincia`, `CP`, `Telefono_fijo`, `Telefono_movil`, `Codigo_asignatura`, `Fecha_nacimiento`) VALUES ('111', '301452162K', 'Ana', ' Torres García', 'C/Tendillas, 3', 'Córdoba', 'Córdoba', '14002', NULL, '666121212', '4', '1983-06-20');
+INSERT INTO `colegio`.`alumnos` (`Codigo_alumno`, `DNI`, `Nombre`, `Apellidos`, `Direccion`, `Localidad`, `Provincia`, `CP`, `Telefono_fijo`, `Telefono_movil`, `Codigo_asignatura`, `Fecha_nacimiento`) VALUES ('112', '32156411A', 'Luisa', ' Perez', 'Espoz', 'Alcorcon', 'Madrid', '28540', '91963852', '655444111', '3', '1981-10-22');
+INSERT INTO `colegio`.`alumnos` (`Codigo_alumno`, `DNI`, `Nombre`, `Apellidos`, `Direccion`, `Localidad`, `Provincia`, `CP`, `Telefono_fijo`, `Telefono_movil`, `Codigo_asignatura`, `Fecha_nacimiento`) VALUES ('113', '45720896J', 'Luis', ' Arnaz', 'Mina', 'Madrid', 'Madrid', '28010', '91478874', '699888777', '8', '1980-10-22');
+INSERT INTO `colegio`.`alumnos` (`Codigo_alumno`, `DNI`, `Nombre`, `Apellidos`, `Direccion`, `Localidad`, `Provincia`, `CP`, `Telefono_fijo`, `Telefono_movil`, `Codigo_asignatura`, `Fecha_nacimiento`) VALUES ('114', '08456123B', 'Berto', ' Galan', 'Mayor', 'Povedilla', 'Malaga', '29010', '95840001', '688145541', '9', '1981-11-02');
+INSERT INTO `colegio`.`alumnos` (`Codigo_alumno`, `DNI`, `Nombre`, `Apellidos`, `Direccion`, `Localidad`, `Provincia`, `CP`, `Telefono_fijo`, `Telefono_movil`, `Codigo_asignatura`, `Fecha_nacimiento`) VALUES ('115', '36452125C', 'Carlos', ' Quijano', 'Oriente', 'Coruña', 'Coruña', '15014', '98777110', '699100200', '7', '1981-01-25');
+
